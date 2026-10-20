@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap will be configured when production URLs are finalized.
+Sitemap: https://nationalnews.pk/sitemap.xml
