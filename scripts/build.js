@@ -10,6 +10,7 @@ import { buildLatest } from "./build-news.js";
 import { buildCategories } from "./build-categories.js";
 import { buildArticles } from "./build-articles.js";
 import { buildRss, buildSitemap } from "./build-feed.js";
+import { injectHomepage } from "./inject-homepage.js";
 import { checkLinks } from "./check-links.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -53,6 +54,7 @@ buildCategories(root, outDir, records);
 const articles = buildArticles(root, outDir, records);
 buildRss(root, outDir, records);
 buildSitemap(root, outDir, records);
+injectHomepage(root, outDir, records);
 
 // 5. Verify all internal links resolve.
 if (!checkLinks(outDir)) {
