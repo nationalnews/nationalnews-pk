@@ -23,14 +23,22 @@
 //  1. Validates the record with the same rules as CI (validate-news.js),
 //     including slug format, category whitelist, URL safety and
 //     near-duplicate title detection against existing records.
-//  2. Writes articles/<slug>.body.html.
-//  3. Appends the record to news.json with status "published".
-//  4. Reminds you to run `npm run build` before committing.
+//  2. Runs the SAFETY GUARD content policy (safety-filter.js):
+//     - "blocked" topics (graphic gore, incitement, blasphemy) are refused
+//       outright — there is no override; do not publish via this tool.
+//     - "review" topics (military, judiciary, sectarian, conflict,
+//       politicians' legal matters, sexual violence) are refused until the
+//       site owner personally approves, then run with --force which writes
+//       a safetyReviewed audit note into the record.
+//  3. Writes articles/<slug>.body.html.
+//  4. Appends the record to news.json with status "published".
+//  5. Reminds you to run `npm run build` before committing.
 //
 // It never touches queue/ or drafts/ — those belong to the collector.
 import fs from "node:fs";
 import path from "node:path";
 import { validateNews, similarity } from "./validate-news.js";
+import { assessSafety, stripHtml, safetyReport } from "./safety-filter.js";
 
 const root = process.cwd();
 const arg = process.argv[2];
@@ -85,6 +93,24 @@ if (!bodyHtml || !bodyHtml.trim()) {
   process.exit(1);
 }
 
+// --- SAFETY GUARD gate (before anything is written to disk) -------------
+const force = process.argv.includes("--force");
+const safety = assessSafety(
+  [draft.title, draft.excerpt, draft.dek, stripHtml(bodyHtml)].filter(Boolean).join("\n")
+);
+if (safety.level === "blocked") {
+  console.error("PUBLISH REFUSED — SAFETY GUARD (blocked topic, no override):\n" + safetyReport(safety).join("\n"));
+  console.error("This content must not be published via automation under any circumstances.");
+  console.error("If you believe this is a policy mistake, edit scripts/safety-filter.js and SAFETY-POLICY.md consciously.");
+  process.exit(1);
+}
+if (safety.level === "review" && !force) {
+  console.error("PUBLISH REFUSED — SAFETY GUARD (sensitive topic needs owner approval):\n" + safetyReport(safety).join("\n"));
+  console.error("Publishing this automatically is not allowed. The site owner must read the story");
+  console.error("and personally run:  node scripts/publish.js <draft.json> --force");
+  process.exit(1);
+}
+
 const record = {
   slug: draft.slug,
   title: draft.title,
@@ -103,6 +129,17 @@ const record = {
   imageLabel: draft.imageLabel || draft.category?.toUpperCase(),
   ...(draft.seoTitle ? { seoTitle: draft.seoTitle } : {}),
   ...(draft.seoDescription ? { seoDescription: draft.seoDescription } : {}),
+  ...(safety.level === "review" && force
+    ? {
+        safetyReviewed: {
+          level: "review",
+          topics: safety.reasons.map((r) => r.id),
+          approvedBy: draft.editor || "NationalNews.pk Desk (owner)",
+          approvedAt: new Date().toISOString(),
+          policyVersion: "v1",
+        },
+      }
+    : {}),
 };
 
 // --- write body first (validator requires it on disk), validate, then index.
@@ -123,6 +160,9 @@ if (errors.length) {
 records.push(record);
 fs.writeFileSync(NEWS_FILE, `${JSON.stringify(records, null, 2)}\n`);
 
+if (safety.level === "review") {
+  console.log("WARNING: published WITH OWNER OVERRIDE (--force). safetyReviewed audit note added to the record.");
+}
 console.log(`OK: published "${record.title}"`);
 console.log(`  body -> ${path.relative(root, bodyFile)}`);
 console.log(`  url  -> ${record.url}`);

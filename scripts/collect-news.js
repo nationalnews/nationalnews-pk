@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { similarity } from "./validate-news.js";
+import { assessSafety, POLICY_VERSION } from "./safety-filter.js";
 
 const root = process.cwd();
 const QUEUE_DIR = path.join(root, "queue");
@@ -114,6 +115,7 @@ async function main() {
     ? JSON.parse(fs.readFileSync(CANDIDATES_FILE, "utf8")) : [];
   const previousByLink = new Map(previous.map((c) => [c.sourceUrl, c]));
 
+  let safetyBlockedCount = 0;
   const batch = [];
   const sourceResults = [];
   for (const source of enabled) {
@@ -147,13 +149,26 @@ async function main() {
     const dupBatch = batchTitles.some((t) => similarity(t, item.headline) >= SIMILARITY_THRESHOLD);
     if (dupPublished || dupBatch) continue;
     batchTitles.push(item.headline);
+    // Safety Guard: assess BEFORE queueing. Blocked items (graphic gore,
+    // incitement, blasphemy) are dropped entirely — they are not even
+    // stored in the public repo. Review-level items are kept but tagged.
+    const safety = assessSafety(`${item.headline} ${item.description || ""}`);
+    if (safety.level === "blocked") {
+      safetyBlockedCount += 1;
+      continue;
+    }
+    const tagged = safety.level === "review" ? { ...item, safety } : item;
     const prior = previousByLink.get(item.sourceUrl);
-    merged.push({ ...item, firstSeenAt: prior?.firstSeenAt || item.retrievedAt });
+    merged.push({ ...tagged, firstSeenAt: prior?.firstSeenAt || item.retrievedAt });
   }
   // Keep previously queued items not superseded by fresher batch, cap total.
+  // Defensive: re-assess retained items so an old policy would still apply.
   const batchLinksFinal = new Set(merged.map((c) => c.sourceUrl));
-  const retained = previous.filter((c) => !batchLinksFinal.has(c.sourceUrl));
+  const retained = previous
+    .filter((c) => !batchLinksFinal.has(c.sourceUrl))
+    .filter((c) => assessSafety(`${c.headline} ${c.description || ""}`).level !== "blocked");
   const candidates = [...merged, ...retained].slice(0, MAX_CANDIDATES);
+  const reviewQueued = candidates.filter((c) => c.safety?.level === "review").length;
 
   const newLinks = candidates.map((c) => c.sourceUrl);
   fs.writeFileSync(CANDIDATES_FILE, JSON.stringify(candidates, null, 2));
@@ -163,9 +178,11 @@ async function main() {
     sourceResults,
     freshCandidates: merged.length,
     totalQueued: candidates.length,
+    safety: { policyVersion: POLICY_VERSION, blockedDropped: safetyBlockedCount, reviewFlagged: reviewQueued },
   }, null, 2));
 
   console.log(`Collection done: ${merged.length} new candidate(s), ${candidates.length} total in queue.`);
+  console.log(`Safety Guard (policy v${POLICY_VERSION}): ${safetyBlockedCount} blocked item(s) dropped, ${reviewQueued} review-flagged item(s) in queue.`);
   console.log("NOTE: candidates are suggestions only. Nothing is published until an editor adds it to news.json after review.");
 }
 

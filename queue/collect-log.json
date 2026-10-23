@@ -1,10 +1,10 @@
 {
-  "runAt": "2026-10-23T18:59:18.450Z",
+  "runAt": "2026-10-23T19:48:56.645Z",
   "sourceResults": [
     {
       "source": "Dawn News",
-      "ok": true,
-      "items": 27
+      "ok": false,
+      "error": "HTTP 403"
     },
     {
       "source": "The News International",
@@ -32,6 +32,11 @@
       "items": 25
     }
   ],
-  "freshCandidates": 200,
-  "totalQueued": 120
+  "freshCandidates": 173,
+  "totalQueued": 120,
+  "safety": {
+    "policyVersion": 1,
+    "blockedDropped": 0,
+    "reviewFlagged": 31
+  }
 }

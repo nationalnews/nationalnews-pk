@@ -14,6 +14,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { similarity } from "./validate-news.js";
+import { assessSafety } from "./safety-filter.js";
 
 const root = process.cwd();
 const DRAFTS_DIR = path.join(root, "drafts");
@@ -101,6 +102,9 @@ async function main() {
   const todo = candidates
     .filter((c) => !draftedIds.has(c.id))
     .filter((c) => !publishedTitles.some((t) => similarity(t, c.headline) >= SIMILARITY_THRESHOLD))
+    // Safety Guard: sensitive candidates (military, judiciary, sectarian,
+    // conflict, etc.) never go to AI drafting — humans handle those topics.
+    .filter((c) => assessSafety(`${c.headline} ${c.description || ""}`).level === "clear")
     .slice(0, max);
 
   if (!todo.length) {

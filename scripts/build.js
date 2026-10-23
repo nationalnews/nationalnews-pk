@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateNews } from "./validate-news.js";
+import { assessSafety, stripHtml, safetyReport } from "./safety-filter.js";
 import { buildLatest } from "./build-news.js";
 import { buildCategories } from "./build-categories.js";
 import { buildArticles } from "./build-articles.js";
@@ -33,6 +34,38 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(`news.json OK: ${records.length} record(s).`);
+
+// 1b. Safety sweep — last line of defence. publish.js already gates new
+// stories, but records hand-added via the GitHub web editor bypass it.
+// blocked (without an owner safetyReviewed note) fails the build;
+// review always prints a visible warning.
+let sweepBlocked = 0;
+let sweepReview = 0;
+for (const rec of records) {
+  let bodyText = "";
+  try {
+    bodyText = stripHtml(fs.readFileSync(path.join(root, rec.body), "utf8"));
+  } catch { /* body file presence is validated elsewhere */ }
+  const a = assessSafety([rec.title, rec.excerpt, rec.dek, bodyText].filter(Boolean).join("\n"));
+  if (a.level === "clear") continue;
+  if (rec.safetyReviewed) {
+    console.log(`WARN: safety override recorded for "${rec.slug}" (topics: ${rec.safetyReviewed.topics?.join(", ")}, approved by ${rec.safetyReviewed.approvedBy}).`);
+    sweepReview += 1;
+  } else if (a.level === "blocked") {
+    console.error(`SAFETY: "${rec.slug}" matches BLOCKED policy topics — build will fail:`);
+    console.error(safetyReport(a).join("\n"));
+    sweepBlocked += 1;
+  } else {
+    console.log(`WARN: safety review flag on "${rec.slug}" — owner approval recommended before it stays live:`);
+    console.log(safetyReport(a).join("\n"));
+    sweepReview += 1;
+  }
+}
+if (sweepBlocked > 0) {
+  console.error(`BUILD FAILED: ${sweepBlocked} published record(s) violate the blocked content policy (SAFETY-POLICY.md).`);
+  process.exit(1);
+}
+console.log(`Safety sweep: 0 blocked, ${sweepReview} review-flagged record(s).`);
 
 // 2. Clean output directory.
 fs.rmSync(outDir, { recursive: true, force: true });

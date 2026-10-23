@@ -192,6 +192,28 @@ in and out), so cost is minimal on free-tier or low-cost models. Start with
 `DRAFT_MAX: "3"` and a low-cost model; increase only if the queue grows.
 Never paste API keys into files, issues or chat — use GitHub Secrets only.
 
+## Safety Guard: sensitive topics need the owner's sign-off
+
+The pipeline enforces a content policy (`SAFETY-POLICY.md`,
+`scripts/safety-filter.js`, policy v1). Three levels:
+
+- **`clear`** — flows normally.
+- **`review`** — military/security establishment, militancy/terrorism,
+  judiciary, sectarian/religion, India-Pakistan conflict, politicians' legal
+  matters, sexual violence. The collector tags these candidates with a
+  `safety` note, AI drafting skips them, and `publish.js` **refuses** them
+  until the site owner has read the story and personally re-runs:
+  `node scripts/publish.js <draft.json> --force`. A `safetyReviewed` audit
+  note (who/when/which topics) is written into the record.
+- **`blocked`** — blasphemy content, graphic gore, incitement. Dropped at
+  collection, refused by `publish.js` with **no override**, and the build
+  fails if such a record ever reaches `news.json` by hand-editing.
+
+The build also re-scans every published record (this catches hand-edits made
+through the GitHub web editor). Review-flagged records print a warning on
+every build until the owner adds a `safetyReviewed` note. Test the policy any
+time with `npm run test:safety`. When in doubt: don't publish.
+
 ## Verify a deployment
 
 1. Open https://nationalnews.pk and https://www.nationalnews.pk.
