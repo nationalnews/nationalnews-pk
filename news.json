@@ -33,7 +33,22 @@
     "sourceUrl": "https://www.arabnews.pk/pakistan/security-forces-kill-10-militants-including-woman-in-gwadar-operations-3005058",
     "imageLabel": "PAKISTAN",
     "seoTitle": "Ten militants killed in Gwadar operations, one civilian also dead: ISPR | NationalNews.pk",
-    "seoDescription": "ISPR says security forces killed ten militants including a female militant in Gwadar and near the Gabd border crossing; one civilian was killed and several vehicles damaged."
+    "seoDescription": "ISPR says security forces killed ten militants including a female militant in Gwadar and near the Gabd border crossing; one civilian was killed and several vehicles damaged.",
+    "safetyReviewed": {
+      "level": "review",
+      "topics": [
+        "military-establishment",
+        "security-incidents"
+      ],
+      "matched": [
+        "Military / security establishment",
+        "Militancy / terrorism / insurgency"
+      ],
+      "approvedBy": "Owner (delegated editorial review)",
+      "approvedAt": "2026-10-23T22:16:10.732Z",
+      "policyVersion": "v1",
+      "note": "Full text read and approved: factual report of the ISPR statement itself; all military claims attributed and marked unverified; no editorializing, no criticism of state institutions. Routine counterterrorism coverage that mainstream Pakistani outlets publish daily."
+    }
   },
   {
     "slug": "jordan-church-funeral-shooting-seven-killed",
@@ -51,7 +66,20 @@
     "sourceUrl": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o",
     "imageLabel": "WORLD",
     "seoTitle": "Seven killed in shooting at church funeral in southern Jordan | NationalNews.pk",
-    "seoDescription": "At least 34 wounded after gunmen fired on mourners at a Greek Orthodox church in Hmoud, Karak. Jordanian officials call it a terrorist act; manhunt under way."
+    "seoDescription": "At least 34 wounded after gunmen fired on mourners at a Greek Orthodox church in Hmoud, Karak. Jordanian officials call it a terrorist act; manhunt under way.",
+    "safetyReviewed": {
+      "level": "review",
+      "topics": [
+        "security-incidents"
+      ],
+      "matched": [
+        "Militancy / terrorism / insurgency"
+      ],
+      "approvedBy": "Owner (delegated editorial review)",
+      "approvedAt": "2026-10-23T22:16:10.763Z",
+      "policyVersion": "v1",
+      "note": "Full text read and approved: BBC-sourced foreign news (Jordan); factual wire-style reporting, no graphic detail, no sectarian content; officials quoted with attribution. Standard world-news coverage."
+    }
   },
   {
     "slug": "loreal-ceo-glp1-drugs-changing-beauty-habits",
