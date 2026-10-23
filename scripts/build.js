@@ -75,7 +75,9 @@ fs.mkdirSync(outDir, { recursive: true });
 const STATIC_FILES = [
   "index.html", "404.html", "robots.txt", "_headers", "logo.svg",
   "about.html", "privacy-policy.html", "editorial-policy.html",
+  "safety-policy.html", "assets/site.css",
 ];
+fs.mkdirSync(path.join(outDir, "assets"), { recursive: true });
 for (const file of STATIC_FILES) {
   fs.copyFileSync(path.join(root, file), path.join(outDir, file));
 }

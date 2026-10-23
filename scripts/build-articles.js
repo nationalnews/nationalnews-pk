@@ -2,6 +2,7 @@
 // Each record with a "body" field (e.g. "articles/my-story.body.html") gets a
 // full page at /<slug>.html using the shared site template, with source
 // attribution, canonical URL and related stories from the same section.
+// Article typography lives in the shared design system (/assets/site.css).
 import fs from "node:fs";
 import path from "node:path";
 import { page } from "./template.js";
@@ -9,20 +10,6 @@ import {
   SITE_URL, escapeHtml, formatDateLabel, formatDateLong,
   publishedOnly, sectionKeyFor, sortByDateDesc, articleUrl,
 } from "./site-config.js";
-
-const ARTICLE_CSS = `
-.article-body{max-width:760px}
-.article-body p{margin:0 0 16px;font-size:16px}
-.article-body h2{font:700 24px Georgia,serif;margin:28px 0 12px}
-.article-body ul{margin:0 0 16px;padding-left:22px}
-.article-body li{margin-bottom:8px}
-.article-body a{color:#075b3b;text-decoration:underline}
-.dek{font-size:19px;color:#4f5551;line-height:1.55;margin:0 0 14px}
-.byline{font-size:12px;color:#727a75;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:22px}
-.source-box{background:var(--wash);border-left:4px solid var(--green);padding:14px 16px;margin:26px 0;font-size:13px;color:#3c4540}
-.related{margin-top:36px}
-.related .story p{margin:0}
-`;
 
 export function buildArticles(root, outDir, records) {
   const published = sortByDateDesc(publishedOnly(records));
@@ -50,7 +37,7 @@ export function buildArticles(root, outDir, records) {
       r.slug !== record.slug && r.body && sectionKeyFor(r) === sectionKeyFor(record)).slice(0, 3);
     const relatedHtml = related.length
       ? `<div class="related"><h2 class="section">Related in ${escapeHtml(record.category)}</h2>${related.map((r) => `
-<article class="story"><div class="art" aria-hidden="true">${escapeHtml(r.imageLabel || r.category)}</div>
+<article class="story" data-cat="${escapeHtml(r.category)}"><div class="art" aria-hidden="true">${escapeHtml(r.imageLabel || r.category)}</div>
 <div><span class="eyebrow">${escapeHtml(r.category)}</span><h2><a href="${escapeHtml(articleUrl(r))}">${escapeHtml(r.title)}</a></h2>
 <div class="meta">${escapeHtml(r.dateLabel || formatDateLabel(r.date))} · Source: ${escapeHtml(r.source)}</div></div></article>`).join("")}</div>`
       : "";
@@ -61,12 +48,11 @@ export function buildArticles(root, outDir, records) {
       path: url,
       canonical: `${SITE_URL}${url}`,
       crumb: escapeHtml(record.category),
-      introHtml: `<article class="article-body"><span class="eyebrow">${escapeHtml(record.category)}${record.type ? ` · ${escapeHtml(record.type)}` : ""}</span>
+      introHtml: `<article class="article-body" data-cat="${escapeHtml(record.category)}"><span class="eyebrow">${escapeHtml(record.category)}${record.type ? ` · ${escapeHtml(record.type)}` : ""}</span>
 <h1>${escapeHtml(record.title)}</h1>
 ${dek ? `<p class="dek">${escapeHtml(dek)}</p>` : ""}
 <p class="byline">${byline}</p>`,
       contentHtml: `${bodyHtml}${sourceBox}${relatedHtml}</article>`,
-      extraHead: `<style>${ARTICLE_CSS}</style>`,
     });
     fs.writeFileSync(path.join(outDir, `${record.slug}.html`), html);
     generated.push(url);

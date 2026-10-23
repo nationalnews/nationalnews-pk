@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#053f29">
+<meta name="description" content="How NationalNews.pk handles sensitive topics: military, judiciary, religion and other content that requires explicit human sign-off.">
+<title>Content Safety Policy | NationalNews.pk</title>
+<link rel="icon" type="image/svg+xml" href="/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700;8..60,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head><body>
+<div class="topline"><div class="wrap"><span>Independent journalism · Pakistan</span><span>Facts first. Context always.</span></div></div>
+<header class="wrap head"><a href="/" aria-label="NationalNews.pk home"><img class="logo" src="/logo.svg" alt="NationalNews.pk — Pakistan Ki Awaz"></a><div class="head-note"><strong>Facts first. Context always.</strong>Independent journalism · Clear sourcing</div></header>
+<nav class="nav" aria-label="Main navigation"><div class="wrap"><div class="nav-inner"><a href="/">Home</a><a href="/latest.html">Latest News</a><a href="/pakistan.html">Pakistan</a><a href="/world.html">World</a><a href="/business.html">Business</a><a href="/sports.html">Sports</a><a href="/about.html">About us</a></div></div></nav>
+<main class="wrap"><div class="prose">
+<div class="crumb" style="padding-top:20px"><a href="/">Home</a> / Content Safety Policy</div>
+<h1>Content Safety Policy</h1>
+<p class="lead-in">Automated tools help us collect and draft news, but they never decide what gets published. Certain topics always require an explicit human decision by the site owner.</p>
+<h2>Why this policy exists</h2>
+<p>NationalNews.pk publishes from Pakistan. Some subjects carry legal, regulatory or personal-safety sensitivities when handled carelessly — for the publication and for the people behind it. Our automation pipeline therefore enforces a content policy at every stage: collection, AI drafting, publishing and the final build. A machine can propose; only a human approves.</p>
+<h2>Never published through automation</h2>
+<p>Content involving blasphemy accusations or religious-offence disputes, graphic descriptions of violence, and material inciting violence is blocked outright by our pipeline. It cannot be queued, drafted or published through automated paths, and the site build fails if such material is ever inserted by hand.</p>
+<h2>Published only with the owner's recorded sign-off</h2>
+<p>Stories touching the military and security institutions, courts and judicial matters, sectarian or religious-conflict topics, India–Pakistan military developments, politicians' legal cases, and sexual-violence cases are flagged for review. The publishing tool refuses them until the site owner has personally read the story and approved it — and that approval is recorded with a timestamp in the story's audit trail.</p>
+<h2>How the enforcement works</h2>
+<p>Every candidate story is screened when it enters our queue. Flagged items are visibly marked, and sensitive candidates never reach AI drafting. The build process re-checks every published story, including any added manually, so nothing bypasses the policy. This policy is versioned in our repository alongside the code that enforces it, and changes are made deliberately and documented.</p>
+<h2>Our editorial stance</h2>
+<p>When in doubt, we do not publish. For sensitive subjects we rely on official statements and clearly attributed reporting, avoid unverified claims, and separate reporting from opinion. The keyword screen is a floor, not a ceiling: human judgment on the full text always outranks an automated result.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:editor@nationalnews.pk">editor@nationalnews.pk</a>. See also our <a href="/editorial-policy.html">Editorial Policy</a>.</p>
+<p class="backlink"><a href="/">← Back to homepage</a></p>
+</div></main>
+<footer class="footer"><div class="wrap footer-inner"><div><img class="footer-logo" src="/logo.svg" alt="NationalNews.pk — Pakistan Ki Awaz"><p>Independent in spirit. Careful with facts. Built for readers.</p></div><div class="footer-links"><a href="/latest.html">Latest news</a> · <a href="/about.html">About</a> · <a href="/editorial-policy.html">Editorial policy</a> · <a href="/privacy-policy.html">Privacy policy</a> · <a href="mailto:editor@nationalnews.pk">Contact editor</a></div><p>© <span id="year"></span> NationalNews.pk. All rights reserved.</p></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body></html>
