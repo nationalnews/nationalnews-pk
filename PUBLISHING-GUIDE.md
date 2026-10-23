@@ -26,12 +26,53 @@ before adding your first story.
 | `scripts/validate-news.js` | Validates `news.json` (run automatically in build) |
 | `scripts/collect-news.js` | RSS collector → writes `queue/candidates.json` only |
 | `scripts/draft-news.js` | Optional AI drafts → writes `drafts/` only |
+| `scripts/publish.js` | Editorial helper: publish one story from a JSON draft file |
 | `sources.json` | RSS sources the collector reads |
 | `queue/` | Collected candidates (suggestions only, not published) |
 | `drafts/` | AI-drafted proposals (suggestions only, not published) |
 | `.github/workflows/` | Quality CI + scheduled collection |
 
 ## How to publish a new story
+
+### Option A — the helper (recommended)
+
+Put the whole story in one JSON file (e.g. `my-story.json`), then:
+
+```bash
+node scripts/publish.js my-story.json
+npm run build
+git add news.json articles/my-story-slug.body.html
+git commit -m "Publish: my-story-slug"
+git push origin main
+```
+
+The draft file shape:
+
+```json
+{
+  "slug": "my-story-slug",
+  "title": "Factual headline, max ~120 characters",
+  "category": "Pakistan",
+  "date": "2026-10-24",
+  "excerpt": "One or two sentences shown in listings (max 400 chars).",
+  "source": "Human-readable source name",
+  "sourceUrl": "https://original-source.example/report",
+  "bodyHtml": "<p>Full story body as HTML…</p>",
+  "dek": "Optional standfirst.",
+  "editor": "Your name / News Desk",
+  "type": "News",
+  "imageLabel": "LABEL",
+  "seoTitle": "SEO headline | NationalNews.pk",
+  "seoDescription": "Meta description up to ~160 characters."
+}
+```
+
+(`"bodyFile"` can be used instead of `"bodyHtml"`.) The helper validates with
+the same rules as CI — slug format, category whitelist, URL safety,
+near-duplicate titles — and rolls everything back if validation fails, so it
+cannot leave `news.json` half-written.
+
+### Option B — manual (works from the GitHub web editor too)
 
 **Step 1 — Create the body file** `articles/my-story-slug.body.html`:
 
