@@ -14,7 +14,11 @@ const catAttr = (r) => `data-cat="${escapeHtml(r.category)}"`;
 
 function leadHtml(r) {
   const meta = escapeHtml(r.dateLabel || r.date || "");
+  const heroImg = r.imageUrl
+    ? `<figure class="lead-art"><img src="${escapeHtml(r.imageUrl)}" alt="${escapeHtml(r.imageAlt || r.title)}" loading="eager">${r.imageCredit ? `<figcaption>Image: ${escapeHtml(r.imageCredit)}</figcaption>` : ""}</figure>`
+    : "";
   return `<a class="lead" ${catAttr(r)} href="${escapeHtml(articleUrl(r))}" aria-label="Read: ${escapeHtml(r.title)}">
+${heroImg}
 <span class="eyebrow">${escapeHtml(r.category)} · ${escapeHtml(r.type || "News")}</span>
 <h1>${escapeHtml(r.title)}</h1>
 <p>${escapeHtml(r.excerpt)}</p>
@@ -34,7 +38,12 @@ function sideHtml(list) {
 function gridHtml(list) {
   if (!list.length) return "";
   const cards = list
-    .map((r) => `<article class="auto-card" ${catAttr(r)}><span class="eyebrow">${escapeHtml(r.category)} · ${escapeHtml(r.type || "News")}</span><h3><a href="${escapeHtml(articleUrl(r))}">${escapeHtml(r.title)}</a></h3><p>${escapeHtml(r.excerpt)}</p><div class="meta">${escapeHtml(r.dateLabel || r.date || "")} · Source: ${escapeHtml(r.source)}</div></article>`)
+    .map((r) => {
+      const thumb = r.imageUrl
+        ? `<div class="auto-card-art"><img src="${escapeHtml(r.imageUrl)}" alt="${escapeHtml(r.imageAlt || r.title)}" loading="lazy"></div>`
+        : "";
+      return `<article class="auto-card${r.imageUrl ? "" : " no-art"}" ${catAttr(r)}>${thumb}<span class="eyebrow">${escapeHtml(r.category)} · ${escapeHtml(r.type || "News")}</span><h3><a href="${escapeHtml(articleUrl(r))}">${escapeHtml(r.title)}</a></h3><p>${escapeHtml(r.excerpt)}</p><div class="meta">${escapeHtml(r.dateLabel || r.date || "")} · Source: ${escapeHtml(r.source)}</div></article>`;
+    })
     .join("");
   return `<section class="auto-latest"><div class="section-heading"><h2>Latest news</h2><small>Updated automatically · <a href="/latest.html">See all</a></small></div><div class="auto-grid">${cards}</div></section>`;
 }

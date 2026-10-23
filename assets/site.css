@@ -167,6 +167,28 @@ h1, h2, h3 { font-family: var(--font-head); letter-spacing: -0.01em; }
 .auto-card h3 { font-family: var(--font-head); font-weight: 700; font-size: 19px; line-height: 1.28; margin: 0 0 9px; }
 .auto-card h3 a:hover { color: var(--cat, var(--red)); }
 .auto-card p { margin: 0 0 12px; font-size: 13.5px; color: var(--muted); line-height: 1.6; }
+.auto-card { display: flex; flex-direction: column; align-items: flex-start; }
+.auto-card .meta { margin-top: auto; padding-top: 6px; }
+.auto-card.no-art .eyebrow { margin-top: auto; }
+.auto-card.no-art .meta { margin-bottom: auto; padding-bottom: 4px; }
+
+/* ---------- story images (hotlinked from source publishers) ---------- */
+.lead-art { margin: 0 0 18px; }
+.lead-art img {
+  display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
+  border-radius: var(--radius); border: 1px solid var(--line); background: var(--wash);
+}
+.lead-art figcaption { font: 600 10.5px var(--font-body); color: var(--muted); letter-spacing: .6px; text-transform: uppercase; margin-top: 7px; }
+
+.auto-card-art { margin: -20px -22px 16px; }
+.auto-card-art img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+
+.article-hero { margin: 24px 0 26px; }
+.article-hero img {
+  display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover;
+  border-radius: var(--radius); border: 1px solid var(--line); background: var(--wash);
+}
+.article-hero figcaption { font: 600 10.5px var(--font-body); color: var(--muted); letter-spacing: .6px; text-transform: uppercase; margin-top: 8px; }
 
 /* ---------- buttons / notes / empty ---------- */
 .btn {

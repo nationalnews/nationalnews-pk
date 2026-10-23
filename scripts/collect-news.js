@@ -57,7 +57,63 @@ function linkFromBlock(block) {
   return tagContent(block, "link");
 }
 
-function parseFeed(xml, sourceName) {
+// Pull the best available image for a feed item. Priority:
+//   1. media:content with medium="image" or an image/* type (largest width wins)
+//   2. media:thumbnail
+//   3. enclosure with an image/* type
+//   4. first <img src> inside content:encoded / description
+//   5. Atom <link rel="enclosure" type="image/...">
+// Returns an absolute http(s) URL or null. Images are HOTLINKED (no copying);
+// build/templates render a text fallback whenever imageUrl is absent, so a
+// dead image URL degrades gracefully instead of breaking layout.
+function absoluteUrl(u) {
+  if (!u) return null;
+  const t = u.trim();
+  return /^https?:\/\//i.test(t) ? t : null;
+}
+
+function imageFromBlock(block) {
+  const mediaContents = [...block.matchAll(/<media:content\b[^>]*>/gi)]
+    .map((m) => {
+      const tag = m[0];
+      const url = absoluteUrl(/url="([^"]+)"/i.exec(tag)?.[1]);
+      const medium = /medium="([^"]*)"/i.exec(tag)?.[1] || "";
+      const type = /type="([^"]*)"/i.exec(tag)?.[1] || "";
+      const width = parseInt(/width="(\d+)"/i.exec(tag)?.[1] || "0", 10);
+      if (!url) return null;
+      if (medium && medium !== "image" && !type.startsWith("image/")) return null;
+      if (!medium && !type.startsWith("image/") && !width) return null;
+      return { url, width };
+    })
+    .filter(Boolean);
+  if (mediaContents.length) {
+    mediaContents.sort((a, b) => b.width - a.width);
+    return mediaContents[0].url;
+  }
+  const thumb = absoluteUrl(/<media:thumbnail\b[^>]*url="([^"]+)"/i.exec(block)?.[1]);
+  if (thumb) return thumb;
+  const enclosure = block.match(/<enclosure\b[^>]*type="image\/[^"]*"[^>]*>/i)
+    || block.match(/<enclosure\b[^>]*url="([^"]+)"[^>]*>/i);
+  if (enclosure) {
+    const tag = enclosure[0];
+    const type = /type="([^"]*)"/i.exec(tag)?.[1] || "image/";
+    const url = absoluteUrl(/url="([^"]+)"/i.exec(tag)?.[1]);
+    if (url && type.startsWith("image/")) return url;
+  }
+  const inline = /<img\b[^>]*src=["']([^"']+)["']/i.exec(block);
+  if (inline) return absoluteUrl(inline[1]);
+  const atomEnc = /<link\b[^>]*rel="enclosure"[^>]*type="image\/[^"]*"[^>]*href="([^"]+)"/i.exec(block)
+    || /<link\b[^>]*rel="enclosure"[^>]*href="([^"]+)"[^>]*type="image\/[^"]*"/i.exec(block);
+  if (atomEnc) return absoluteUrl(atomEnc[1]);
+  return null;
+}
+
+function parseFeed(xml, source) {
+  const sourceName = source.name;
+  // Some publishers (e.g. Geo) hotlink-protect their images (redirect to
+  // homepage), which would break cards in browsers. sources.json can set
+  // "images": false per source to skip image extraction entirely.
+  const wantImages = source.images !== false;
   const items = [];
   const isAtom = /<feed[\s>]/i.test(xml);
   const blocks = isAtom
@@ -80,6 +136,11 @@ function parseFeed(xml, sourceName) {
       headline: title, description: description.slice(0, 600),
       publishedAt, retrievedAt: new Date().toISOString(),
       suggestedCategory: suggestCategory(title, description),
+      ...(wantImages ? {
+        imageUrl: imageFromBlock(block),
+        imageAlt: title,
+        imageCredit: sourceName,
+      } : {}),
     });
   }
   return items;
@@ -94,7 +155,7 @@ async function fetchFeed(source) {
       headers: { "User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml, text/xml" },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return parseFeed(await res.text(), source.name);
+    return parseFeed(await res.text(), source);
   } finally {
     clearTimeout(timer);
   }

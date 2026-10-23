@@ -1,11 +1,37 @@
 {
   "notes": "Curated, reputable sources with public RSS feeds. Feeds are read respectfully (custom User-Agent, rate-limit delay, timeouts). Add or disable sources by editing this file. Suggested categories are hints only — editors confirm the final category.",
   "sources": [
-    { "name": "Dawn News", "url": "https://www.dawn.com/feeds/home", "enabled": true },
-    { "name": "The News International", "url": "https://www.thenews.com.pk/rss/1/1", "enabled": true },
-    { "name": "Geo News", "url": "https://www.geo.tv/rss/1/1", "enabled": true },
-    { "name": "BBC News — World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "enabled": true },
-    { "name": "BBC News — Business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml", "enabled": true },
-    { "name": "Al Jazeera — All", "url": "https://www.aljazeera.com/xml/rss/all.xml", "enabled": true }
+    {
+      "name": "Dawn News",
+      "url": "https://www.dawn.com/feeds/home",
+      "enabled": true
+    },
+    {
+      "name": "The News International",
+      "url": "https://www.thenews.com.pk/rss/1/1",
+      "enabled": true
+    },
+    {
+      "name": "Geo News",
+      "url": "https://www.geo.tv/rss/1/1",
+      "enabled": true,
+      "images": false,
+      "note": "Geo's CDN redirects hotlinked images to its homepage, so feed images are disabled for this source."
+    },
+    {
+      "name": "BBC News — World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "enabled": true
+    },
+    {
+      "name": "BBC News — Business",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "enabled": true
+    },
+    {
+      "name": "Al Jazeera — All",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "enabled": true
+    }
   ]
 }

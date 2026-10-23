@@ -33,13 +33,23 @@ export function buildArticles(root, outDir, records) {
       ? ` · <a href="${escapeHtml(record.sourceUrl)}" rel="noopener noreferrer" target="_blank">Original report</a>` : ""}${record.retrievedAt
       ? ` · Retrieved ${escapeHtml(record.retrievedAt)}` : ""}</div>`;
 
+    const heroFigure = record.imageUrl
+      ? `<figure class="article-hero"><img src="${escapeHtml(record.imageUrl)}" alt="${escapeHtml(record.imageAlt || record.title)}">${record.imageCredit
+        ? `<figcaption>Image: ${escapeHtml(record.imageCredit)}</figcaption>` : ""}</figure>`
+      : "";
+
     const related = published.filter((r) =>
       r.slug !== record.slug && r.body && sectionKeyFor(r) === sectionKeyFor(record)).slice(0, 3);
     const relatedHtml = related.length
-      ? `<div class="related"><h2 class="section">Related in ${escapeHtml(record.category)}</h2>${related.map((r) => `
-<article class="story" data-cat="${escapeHtml(r.category)}"><div class="art" aria-hidden="true">${escapeHtml(r.imageLabel || r.category)}</div>
+      ? `<div class="related"><h2 class="section">Related in ${escapeHtml(record.category)}</h2>${related.map((r) => {
+        const relArt = r.imageUrl
+          ? `<div class="art" aria-hidden="true"><img src="${escapeHtml(r.imageUrl)}" alt="" loading="lazy"></div>`
+          : `<div class="art" aria-hidden="true">${escapeHtml(r.imageLabel || r.category)}</div>`;
+        return `
+<article class="story" data-cat="${escapeHtml(r.category)}">${relArt}
 <div><span class="eyebrow">${escapeHtml(r.category)}</span><h2><a href="${escapeHtml(articleUrl(r))}">${escapeHtml(r.title)}</a></h2>
-<div class="meta">${escapeHtml(r.dateLabel || formatDateLabel(r.date))} · Source: ${escapeHtml(r.source)}</div></div></article>`).join("")}</div>`
+<div class="meta">${escapeHtml(r.dateLabel || formatDateLabel(r.date))} · Source: ${escapeHtml(r.source)}</div></div></article>`;
+      }).join("")}</div>`
       : "";
 
     const html = page({
@@ -51,7 +61,8 @@ export function buildArticles(root, outDir, records) {
       introHtml: `<article class="article-body" data-cat="${escapeHtml(record.category)}"><span class="eyebrow">${escapeHtml(record.category)}${record.type ? ` · ${escapeHtml(record.type)}` : ""}</span>
 <h1>${escapeHtml(record.title)}</h1>
 ${dek ? `<p class="dek">${escapeHtml(dek)}</p>` : ""}
-<p class="byline">${byline}</p>`,
+<p class="byline">${byline}</p>
+${heroFigure}`,
       contentHtml: `${bodyHtml}${sourceBox}${relatedHtml}</article>`,
     });
     fs.writeFileSync(path.join(outDir, `${record.slug}.html`), html);

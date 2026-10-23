@@ -48,7 +48,10 @@
       "approvedAt": "2026-10-23T22:16:10.732Z",
       "policyVersion": "v1",
       "note": "Full text read and approved: factual report of the ISPR statement itself; all military claims attributed and marked unverified; no editorializing, no criticism of state institutions. Routine counterterrorism coverage that mainstream Pakistani outlets publish daily."
-    }
+    },
+    "imageUrl": "https://assets.maestronewsroom.com/media/5dd7c4a4-a961-498c-8029-59f9255b4c95/proxies/ad2dcbed-d889-4662-a2f8-8360372e9048.webp",
+    "imageAlt": "Ten militants killed in Gwadar operations, one civilian also dead: ISPR",
+    "imageCredit": "arabnews.pk"
   },
   {
     "slug": "jordan-church-funeral-shooting-seven-killed",
@@ -79,7 +82,10 @@
       "approvedAt": "2026-10-23T22:16:10.763Z",
       "policyVersion": "v1",
       "note": "Full text read and approved: BBC-sourced foreign news (Jordan); factual wire-style reporting, no graphic detail, no sectarian content; officials quoted with attribution. Standard world-news coverage."
-    }
+    },
+    "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/fd9e/live/bb37b200-cee8-11f1-b441-2b33b063138f.jpg",
+    "imageAlt": "Seven killed in shooting at church funeral in southern Jordan",
+    "imageCredit": "bbc.co.uk"
   },
   {
     "slug": "loreal-ceo-glp1-drugs-changing-beauty-habits",
@@ -97,7 +103,10 @@
     "sourceUrl": "https://www.bbc.co.uk/news/articles/cvglwgwpgrlpo",
     "imageLabel": "BUSINESS",
     "seoTitle": "Weight-loss drugs are changing beauty habits, says L'Oreal chief | NationalNews.pk",
-    "seoDescription": "L'Oreal's CEO says GLP-1 medicines are hitting skincare consumption. Sales rose 7.7% in the quarter to September; brands are adapting products for GLP-1 users."
+    "seoDescription": "L'Oreal's CEO says GLP-1 medicines are hitting skincare consumption. Sales rose 7.7% in the quarter to September; brands are adapting products for GLP-1 users.",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/04f7/live/62d395b0-ce5d-11f1-a64c-550be9e3c66b.jpg",
+    "imageAlt": "Weight-loss drugs are changing beauty habits, says L'Oreal chief",
+    "imageCredit": "bbc.co.uk"
   },
   {
     "slug": "psg-lyon-postponed-paris-protests",
@@ -115,6 +124,9 @@
     "sourceUrl": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po",
     "imageLabel": "SPORT",
     "seoTitle": "PSG v Lyon postponed by a day as Paris prepares for protests | NationalNews.pk",
-    "seoDescription": "The LFP moved PSG v Lyon from Sunday 19:45 GMT to Monday 20:30 GMT after police prohibited the original date amid protest planning in Paris."
+    "seoDescription": "The LFP moved PSG v Lyon from Sunday 19:45 GMT to Monday 20:30 GMT after police prohibited the original date amid protest planning in Paris.",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/8e74/live/35aca470-cee7-11f1-bdca-23c64447299f.jpg",
+    "imageAlt": "PSG v Lyon postponed by a day as Paris prepares for protests",
+    "imageCredit": "bbc.co.uk"
   }
 ]

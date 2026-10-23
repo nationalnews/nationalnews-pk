@@ -125,8 +125,9 @@ const record = {
   editor: draft.editor || "NationalNews.pk Desk",
   source: draft.source,
   ...(draft.sourceUrl ? { sourceUrl: draft.sourceUrl } : {}),
-  ...(draft.imageUrl ? { imageUrl: draft.imageUrl } : {}),
+  ...(draft.imageUrl ? { imageUrl: draft.imageUrl, imageAlt: draft.imageAlt || draft.title } : {}),
   imageLabel: draft.imageLabel || draft.category?.toUpperCase(),
+  ...(draft.imageUrl && draft.imageCredit ? { imageCredit: draft.imageCredit } : {}),
   ...(draft.seoTitle ? { seoTitle: draft.seoTitle } : {}),
   ...(draft.seoDescription ? { seoDescription: draft.seoDescription } : {}),
   ...(safety.level === "review" && force
