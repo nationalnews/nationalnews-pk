@@ -1,0 +1,54 @@
+name: Collect news candidates
+
+# Scheduled collection of candidate stories from reputable RSS sources,
+# plus optional AI drafting. This workflow NEVER publishes anything:
+# it only updates queue/ and drafts/ for human editorial review.
+# Publishing remains a manual editor action (see PUBLISHING-GUIDE.md).
+
+on:
+  schedule:
+    # 03:00 and 11:00 UTC = 08:00 and 16:00 Pakistan Standard Time
+    - cron: "0 3,11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-news
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Collect candidate stories from RSS sources
+        run: node scripts/collect-news.js
+
+      - name: Generate AI drafts (skips automatically if secrets are not configured)
+        env:
+          DRAFT_API_KEY: ${{ secrets.DRAFT_API_KEY }}
+          DRAFT_API_BASE: ${{ secrets.DRAFT_API_BASE }}
+          DRAFT_API_MODEL: ${{ secrets.DRAFT_API_MODEL }}
+          DRAFT_MAX: "3"
+        run: node scripts/draft-news.js
+
+      - name: Commit queue and drafts for editorial review
+        run: |
+          git config user.name "nationalnews-bot"
+          git config user.email "bot@nationalnews.pk"
+          git add queue/ drafts/
+          if git diff --cached --quiet; then
+            echo "No new candidates or drafts to commit."
+          else
+            git commit -m "Update news queue and editorial drafts [skip ci]"
+            git push
+          fi

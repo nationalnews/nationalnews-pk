@@ -1,14 +1,20 @@
 [
   {
-    "title": "IMF warns of regional economic contraction as conflict disrupts trade",
     "slug": "imf-regional-outlook-oct-2026",
+    "title": "IMF warns of regional economic contraction as conflict disrupts trade",
     "url": "/imf-regional-outlook-oct-2026.html",
+    "body": "articles/imf-regional-outlook-oct-2026.body.html",
     "category": "Business",
     "type": "Explainer",
     "date": "2026-10-22",
-    "dateLabel": "22 Oct 2026",
+    "status": "published",
     "excerpt": "What the IMF’s regional outlook says, why the 1.3% forecast applies to the combined region rather than Pakistan alone, and which risks matter for readers.",
+    "dek": "The Fund’s latest outlook points to how conflict-related disruption to energy, shipping and tourism can ripple through economies. Pakistan’s exposure will depend on energy costs, trade conditions and domestic policy.",
+    "editor": "NationalNews.pk Desk",
+    "source": "Reuters reporting on the IMF regional outlook",
+    "sourceUrl": "https://www.reuters.com/world/middle-east/imf-sees-13-contraction-middle-east-north-africa-pakistan-2026-2026-10-22/",
     "imageLabel": "ECONOMY",
-    "source": "Reuters reporting on the IMF regional outlook"
+    "seoTitle": "IMF warns of regional economic contraction as conflict disrupts trade | NationalNews.pk",
+    "seoDescription": "The IMF’s latest regional outlook warns of economic contraction amid conflict-related energy and trade disruptions. What it could mean for Pakistan."
   }
 ]

@@ -1,0 +1,175 @@
+// Collects candidate news items from reputable RSS sources listed in
+// sources.json. Deterministic — no AI, no publishing. Output goes to
+// queue/candidates.json ONLY; news.json is never touched by this script.
+// Dedupe: against published stories, previous candidates, and within batch.
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+import { similarity } from "./validate-news.js";
+
+const root = process.cwd();
+const QUEUE_DIR = path.join(root, "queue");
+const CANDIDATES_FILE = path.join(QUEUE_DIR, "candidates.json");
+const SEEN_FILE = path.join(QUEUE_DIR, "seen-links.json");
+const LOG_FILE = path.join(QUEUE_DIR, "collect-log.json");
+const USER_AGENT = "NationalNewsPkCollector/1.0 (+https://nationalnews.pk; contact editor@nationalnews.pk)";
+const FETCH_TIMEOUT_MS = 12000;
+const SOURCE_DELAY_MS = 1500;
+const MAX_CANDIDATES = 120;
+const SIMILARITY_THRESHOLD = 0.8;
+
+const CATEGORY_KEYWORDS = {
+  Business: ["economy", "imf", "inflation", "rupee", "state bank", "sbp", "stock", "psx", "budget", "trade", "export", "import", "market", "tax", "fbr", "gdp", "loan", " petrol", "dollar"],
+  Sports: ["cricket", "pcb", "football", "hockey", "squash", "match", "tournament", "tournament", "league", "player", "coach", "world cup", "asia cup", "olympic"],
+  World: ["gaza", "ukraine", "iran", "israel", "china", "india", "us ", "united states", "europe", "un ", "afghanistan", "saudi", "uae", "turkey", "global"],
+  Pakistan: ["pakistan", "islamabad", "karachi", "lahore", "peshawar", "quetta", "punjab", "sindh", "balochistan", "khyber", "ispr", "ndma", "election commission", "national assembly", "senate", "chief justice"],
+};
+
+function suggestCategory(title, description) {
+  const text = `${title} ${description}`.toLowerCase();
+  let best = { category: "World", score: 0 };
+  for (const [category, words] of Object.entries(CATEGORY_KEYWORDS)) {
+    const score = words.reduce((n, w) => n + (text.includes(w) ? 1 : 0), 0);
+    if (score > best.score) best = { category, score };
+  }
+  return best.category; // World is the neutral default
+}
+
+function shortId(link) {
+  return crypto.createHash("sha1").update(link).digest("hex").slice(0, 12);
+}
+
+function stripCdata(text = "") {
+  return String(text).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function tagContent(block, tag) {
+  const m = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)</${tag}>`, "i").exec(block);
+  return m ? stripCdata(m[1]) : "";
+}
+
+function linkFromBlock(block) {
+  // RSS <link>text</link> or Atom <link href="..."/>
+  const atom = /<link[^>]*href="([^"]+)"[^>]*\/?>(?:\s*<\/link>)?/i.exec(block);
+  if (atom && atom[1] && !atom[1].includes("</")) return atom[1].trim();
+  return tagContent(block, "link");
+}
+
+function parseFeed(xml, sourceName) {
+  const items = [];
+  const isAtom = /<feed[\s>]/i.test(xml);
+  const blocks = isAtom
+    ? xml.split(/<entry[\s>]/i).slice(1).map((b) => b.split(/<\/entry>/i)[0])
+    : xml.split(/<item[\s>]/i).slice(1).map((b) => b.split(/<\/item>/i)[0]);
+  for (const block of blocks) {
+    const title = tagContent(block, "title");
+    const link = linkFromBlock(block);
+    if (!title || !link) continue;
+    const published = tagContent(block, "pubDate") || tagContent(block, "published")
+      || tagContent(block, "updated") || "";
+    const description = tagContent(block, "description") || tagContent(block, "summary");
+    let publishedAt = null;
+    if (published) {
+      const d = new Date(published);
+      if (!Number.isNaN(d.getTime())) publishedAt = d.toISOString();
+    }
+    items.push({
+      id: shortId(link), sourceName, sourceUrl: link,
+      headline: title, description: description.slice(0, 600),
+      publishedAt, retrievedAt: new Date().toISOString(),
+      suggestedCategory: suggestCategory(title, description),
+    });
+  }
+  return items;
+}
+
+async function fetchFeed(source) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(source.url, {
+      signal: controller.signal,
+      headers: { "User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml, text/xml" },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return parseFeed(await res.text(), source.name);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function main() {
+  fs.mkdirSync(QUEUE_DIR, { recursive: true });
+  const { sources } = JSON.parse(fs.readFileSync(path.join(root, "sources.json"), "utf8"));
+  const enabled = sources.filter((s) => s.enabled);
+  console.log(`Collecting from ${enabled.length} enabled source(s)...`);
+
+  const published = JSON.parse(fs.readFileSync(path.join(root, "news.json"), "utf8"));
+  const publishedTitles = published.map((r) => r.title);
+  const seenLinks = fs.existsSync(SEEN_FILE) ? JSON.parse(fs.readFileSync(SEEN_FILE, "utf8")) : [];
+  const seenSet = new Set(seenLinks);
+
+  const previous = fs.existsSync(CANDIDATES_FILE)
+    ? JSON.parse(fs.readFileSync(CANDIDATES_FILE, "utf8")) : [];
+  const previousByLink = new Map(previous.map((c) => [c.sourceUrl, c]));
+
+  const batch = [];
+  const sourceResults = [];
+  for (const source of enabled) {
+    try {
+      const items = await fetchFeed(source);
+      batch.push(...items);
+      sourceResults.push({ source: source.name, ok: true, items: items.length });
+      console.log(`  OK  ${source.name}: ${items.length} item(s)`);
+    } catch (err) {
+      sourceResults.push({ source: source.name, ok: false, error: err.message });
+      console.log(`  ERR ${source.name}: ${err.message}`);
+    }
+    await new Promise((r) => setTimeout(r, SOURCE_DELAY_MS));
+  }
+
+  const failedAll = sourceResults.every((r) => !r.ok);
+  if (failedAll && enabled.length > 0) {
+    console.error("COLLECTION FAILED: every enabled source errored. No queue update.");
+    fs.writeFileSync(LOG_FILE, JSON.stringify({ runAt: new Date().toISOString(), sourceResults, candidates: 0, note: "all sources failed" }, null, 2));
+    process.exit(1);
+  }
+
+  // Dedupe: existing queue + published titles + within batch + seen links.
+  const merged = [];
+  const batchTitles = [];
+  const batchLinks = new Set();
+  for (const item of batch) {
+    if (batchLinks.has(item.sourceUrl)) continue;
+    batchLinks.add(item.sourceUrl);
+    const dupPublished = publishedTitles.some((t) => similarity(t, item.headline) >= SIMILARITY_THRESHOLD);
+    const dupBatch = batchTitles.some((t) => similarity(t, item.headline) >= SIMILARITY_THRESHOLD);
+    if (dupPublished || dupBatch) continue;
+    batchTitles.push(item.headline);
+    const prior = previousByLink.get(item.sourceUrl);
+    merged.push({ ...item, firstSeenAt: prior?.firstSeenAt || item.retrievedAt });
+  }
+  // Keep previously queued items not superseded by fresher batch, cap total.
+  const batchLinksFinal = new Set(merged.map((c) => c.sourceUrl));
+  const retained = previous.filter((c) => !batchLinksFinal.has(c.sourceUrl));
+  const candidates = [...merged, ...retained].slice(0, MAX_CANDIDATES);
+
+  const newLinks = candidates.map((c) => c.sourceUrl);
+  fs.writeFileSync(CANDIDATES_FILE, JSON.stringify(candidates, null, 2));
+  fs.writeFileSync(SEEN_FILE, JSON.stringify([...new Set([...seenLinks, ...batchLinks])].slice(-2000), null, 2));
+  fs.writeFileSync(LOG_FILE, JSON.stringify({
+    runAt: new Date().toISOString(),
+    sourceResults,
+    freshCandidates: merged.length,
+    totalQueued: candidates.length,
+  }, null, 2));
+
+  console.log(`Collection done: ${merged.length} new candidate(s), ${candidates.length} total in queue.`);
+  console.log("NOTE: candidates are suggestions only. Nothing is published until an editor adds it to news.json after review.");
+}
+
+main().catch((err) => {
+  console.error(`COLLECTION FAILED: ${err.message}`);
+  process.exit(1);
+});

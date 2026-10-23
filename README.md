@@ -3,10 +3,15 @@
 A lightweight, responsive static homepage prepared for Cloudflare Pages.
 
 ## Current status
-- Static preview UI and responsive layouts.
-- Placeholder copy is explicitly labeled and is not current news.
+- Static preview UI and responsive layouts; original logo in header and footer.
+- Data-driven publishing: `news.json` is the central story index; build
+  generates Latest News, the four section pages, article pages, `rss.xml`
+  and `sitemap.xml` from it. See **PUBLISHING-GUIDE.md** for the exact
+  workflow to add, edit or unpublish a story.
+- Scheduled RSS collection (GitHub Actions) fills `queue/` with candidate
+  stories and optional AI drafts in `drafts/`. Nothing is auto-published —
+  editorial approval before publishing is required by design.
 - Newsletter form is a non-collecting demo; it does not submit or store email.
-- No live RSS, database, editorial dashboard, analytics or ad integrations yet.
 
 ## Deploy on Cloudflare Pages
 - Framework preset: None
@@ -14,7 +19,8 @@ A lightweight, responsive static homepage prepared for Cloudflare Pages.
 - Build output directory: `dist`
 - Production branch: `main`
 
-The build script copies the static files into `dist`. No paid dependencies are required.
+The build validates `news.json`, generates all data-driven pages, and runs an
+internal link check. No paid dependencies are required.
 
 ## Before public launch
 1. Replace preview placeholders with verified, original stories and source attribution.
