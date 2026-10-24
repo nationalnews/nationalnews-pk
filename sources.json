@@ -4,7 +4,9 @@
     {
       "name": "Dawn News",
       "url": "https://www.dawn.com/feeds/home",
-      "enabled": true
+      "enabled": true,
+      "images": false,
+      "note": "i.dawn.com returns HTTP 403 for hotlinked images from third-party sites, so feed images are disabled for this source."
     },
     {
       "name": "The News International",
