@@ -7,7 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { page } from "./template.js";
 import {
-  SITE_URL, escapeHtml, formatDateLabel, formatDateLong,
+  SITE_URL, CATEGORIES, escapeHtml, formatDateLabel, formatDateLong,
   publishedOnly, sectionKeyFor, sortByDateDesc, articleUrl,
 } from "./site-config.js";
 
@@ -61,6 +61,18 @@ export function buildArticles(root, outDir, records) {
       ...(record.sourceUrl ? { isBasedOn: record.sourceUrl } : {}),
     };
 
+    // BreadcrumbList rich result: Home > Section > Article.
+    const catEntry = CATEGORIES.find((c) => c.key === sectionKeyFor(record));
+    const breadcrumb = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+        ...(catEntry ? [{ "@type": "ListItem", position: 2, name: catEntry.name, item: `${SITE_URL}/${catEntry.file}` }] : []),
+        { "@type": "ListItem", position: catEntry ? 3 : 2, name: record.title, item: `${SITE_URL}${url}` },
+      ],
+    };
+
     const related = published.filter((r) =>
       r.slug !== record.slug && r.body && sectionKeyFor(r) === sectionKeyFor(record)).slice(0, 3);
     const relatedHtml = related.length
@@ -86,7 +98,7 @@ export function buildArticles(root, outDir, records) {
       ogImageAlt: record.imageAlt || record.title,
       publishedTime: publishedIso,
       section: record.category,
-      jsonLd,
+      jsonLd: [jsonLd, breadcrumb],
       introHtml: `<article class="article-body" data-cat="${escapeHtml(record.category)}"><span class="eyebrow">${escapeHtml(record.category)}${record.type ? ` · ${escapeHtml(record.type)}` : ""}</span>
 <h1>${escapeHtml(record.title)}</h1>
 ${dek ? `<p class="dek">${escapeHtml(dek)}</p>` : ""}

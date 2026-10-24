@@ -43,6 +43,35 @@ ${rssItems}
   console.log(`Generated rss.xml with ${items.length} item(s).`);
 }
 
+// Google News sitemap — articles published in the last 48 hours only
+// (Google's requirement for the News tab). Older stories remain in
+// sitemap.xml. Safe to submit both in Search Console.
+export function buildNewsSitemap(root, outDir, records) {
+  const cutoff = Date.now() - 48 * 60 * 60 * 1000;
+  const items = sortByDateDesc(publishedOnly(records))
+    .filter((r) => r.body) // real article pages only
+    .map((r) => ({ r, dt: new Date(`${r.date}T00:00:00+05:00`) }))
+    .filter(({ dt }) => !Number.isNaN(dt.getTime()) && dt.getTime() >= cutoff);
+  const urls = items.map(({ r, dt }) => `  <url>
+    <loc>${SITE_URL}${escapeHtml(articleUrl(r))}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>${escapeHtml(SITE_NAME)}</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>${dt.toISOString()}</news:publication_date>
+      <news:title>${escapeHtml(r.title)}</news:title>
+    </news:news>
+  </url>`).join("\n");
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+${urls}
+</urlset>
+`;
+  fs.writeFileSync(path.join(outDir, "news-sitemap.xml"), xml);
+  console.log(`Generated news-sitemap.xml with ${items.length} article(s) from the last 48h.`);
+}
+
 export function buildSitemap(root, outDir, records) {
   const articles = sortByDateDesc(publishedOnly(records)).map((r) => ({
     loc: articleUrl(r),

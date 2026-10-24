@@ -10,7 +10,7 @@ import { assessSafety, stripHtml, safetyReport } from "./safety-filter.js";
 import { buildLatest } from "./build-news.js";
 import { buildCategories } from "./build-categories.js";
 import { buildArticles } from "./build-articles.js";
-import { buildRss, buildSitemap } from "./build-feed.js";
+import { buildRss, buildSitemap, buildNewsSitemap } from "./build-feed.js";
 import { injectHomepage } from "./inject-homepage.js";
 import { checkLinks } from "./check-links.js";
 
@@ -76,6 +76,7 @@ const STATIC_FILES = [
   "index.html", "404.html", "robots.txt", "_headers", "logo.svg",
   "about.html", "privacy-policy.html", "editorial-policy.html",
   "safety-policy.html", "assets/site.css", "assets/og-cover.png",
+  "googlecf8400cbc1fffc0b.html", // Google Search Console ownership file
 ];
 fs.mkdirSync(path.join(outDir, "assets"), { recursive: true });
 for (const file of STATIC_FILES) {
@@ -89,6 +90,7 @@ buildCategories(root, outDir, records);
 const articles = buildArticles(root, outDir, records);
 buildRss(root, outDir, records);
 buildSitemap(root, outDir, records);
+buildNewsSitemap(root, outDir, records);
 injectHomepage(root, outDir, records);
 
 // 5. Verify all internal links resolve.

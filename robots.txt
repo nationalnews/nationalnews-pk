@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://nationalnews.pk/sitemap.xml
+Sitemap: https://nationalnews.pk/news-sitemap.xml

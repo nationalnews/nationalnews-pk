@@ -38,6 +38,9 @@ export function seoHead({
   const image = ogImage || DEFAULT_OG_IMAGE;
   const imageAlt = ogImageAlt || `${SITE_NAME} — Pakistan Ki Awaz`;
   const parts = [
+    // Google Search Console site ownership (meta-tag method, complements
+    // the uploaded verification file googlecf8400cbc1fffc0b.html).
+    `<meta name="google-site-verification" content="googlecf8400cbc1fffc0b">`,
     `<meta property="og:site_name" content="${escapeHtml(SITE_NAME)}">`,
     `<meta property="og:locale" content="en_PK">`,
     `<meta property="og:type" content="${escapeHtml(ogType)}">`,
