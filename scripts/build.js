@@ -77,6 +77,7 @@ const STATIC_FILES = [
   "about.html", "privacy-policy.html", "editorial-policy.html",
   "safety-policy.html", "assets/site.css", "assets/og-cover.png",
   "googlecf8400cbc1fffc0b.html", // Google Search Console ownership file
+  "55487652975ed714f3bf5ca332a1d008.txt", // IndexNow ownership key (Bing/Seznam/Yandex)
 ];
 fs.mkdirSync(path.join(outDir, "assets"), { recursive: true });
 for (const file of STATIC_FILES) {
