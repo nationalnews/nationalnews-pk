@@ -38,6 +38,29 @@ export function buildArticles(root, outDir, records) {
         ? `<figcaption>Image: ${escapeHtml(record.imageCredit)}</figcaption>` : ""}</figure>`
       : "";
 
+    // Rich results: NewsArticle structured data. Only factual, verifiable
+    // fields go in — this is what Google reads.
+    const publishedIso = record.date ? `${record.date}T00:00:00+05:00` : null;
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      headline: record.title,
+      description: description,
+      inLanguage: "en-PK",
+      isAccessibleForFree: true,
+      ...(record.imageUrl ? { image: [record.imageUrl] } : {}),
+      ...(publishedIso ? { datePublished: publishedIso, dateModified: publishedIso } : {}),
+      author: [{ "@type": "Organization", name: "NationalNews.pk", url: SITE_URL }],
+      publisher: {
+        "@type": "NewsMediaOrganization",
+        name: "NationalNews.pk",
+        url: SITE_URL,
+        logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.svg` },
+      },
+      mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}${url}` },
+      ...(record.sourceUrl ? { isBasedOn: record.sourceUrl } : {}),
+    };
+
     const related = published.filter((r) =>
       r.slug !== record.slug && r.body && sectionKeyFor(r) === sectionKeyFor(record)).slice(0, 3);
     const relatedHtml = related.length
@@ -58,6 +81,12 @@ export function buildArticles(root, outDir, records) {
       path: url,
       canonical: `${SITE_URL}${url}`,
       crumb: escapeHtml(record.category),
+      ogType: "article",
+      ogImage: record.imageUrl || null,
+      ogImageAlt: record.imageAlt || record.title,
+      publishedTime: publishedIso,
+      section: record.category,
+      jsonLd,
       introHtml: `<article class="article-body" data-cat="${escapeHtml(record.category)}"><span class="eyebrow">${escapeHtml(record.category)}${record.type ? ` · ${escapeHtml(record.type)}` : ""}</span>
 <h1>${escapeHtml(record.title)}</h1>
 ${dek ? `<p class="dek">${escapeHtml(dek)}</p>` : ""}
