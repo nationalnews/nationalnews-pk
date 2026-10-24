@@ -1,33 +1,28 @@
-name: Models endpoint diagnostic
+name: Copilot CLI diagnostic
 
 on:
   workflow_dispatch:
 
 permissions:
-  models: read
+  contents: read
+  copilot-requests: write
 
 jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
-      - name: Test GitHub Models endpoint variants
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Check Copilot CLI availability
         run: |
-          test_ep() {
-            echo "=== POST $1 (model=$2) ==="
-            code=$(curl -s -o /tmp/body.txt -w "%{http_code}" --max-time 30 -X POST "$1" \
-              -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" \
-              -d "{\"model\":\"$2\",\"messages\":[{\"role\":\"user\",\"content\":\"Say hello\"}],\"max_tokens\":20}")
-            echo "HTTP $code | content-type: $(curl -sI --max-time 20 -X POST "$1" -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" -d "{\"model\":\"$2\",\"messages\":[{\"role\":\"user\",\"content\":\"Say hello\"}]}" | grep -i '^content-type' | tr -d '\r')"
-            echo "body: $(head -c 200 /tmp/body.txt)"
-            echo
-          }
-          test_ep "https://models.github.ai/inference/chat/completions" "openai/gpt-4o-mini"
-          test_ep "https://models.github.ai/chat/completions" "openai/gpt-4o-mini"
-          test_ep "https://models.inference.ai.azure.com/chat/completions" "gpt-4o-mini"
-          echo "=== GET https://models.github.ai/catalog ==="
-          curl -s --max-time 20 "https://models.github.ai/catalog" -H "Authorization: Bearer $GH_TOKEN" | head -c 300
-          echo
-          echo "=== ai-inference action style: no trailing path via POST /inference ==="
-          curl -s --max-time 20 -X POST "https://models.github.ai/inference" -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" -d '{"model":"openai/gpt-4o-mini","input":"Say hello"}' | head -c 300
+          which copilot && copilot --version || echo "copilot not preinstalled"
+          npm install --global @github/copilot@latest 2>&1 | tail -2
+          copilot --version
+
+      - name: Test inference via GITHUB_TOKEN
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          OUT=$(copilot -p "Reply with exactly: WORKS" -s --no-ask-user 2>&1)
+          CODE=$?
+          echo "exit=$CODE"
+          echo "output: $OUT" | tail -6
