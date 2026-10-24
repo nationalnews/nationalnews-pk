@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 concurrency:
   group: collect-news
@@ -33,13 +34,18 @@ jobs:
       - name: Collect candidate stories from RSS sources
         run: node scripts/collect-news.js
 
-      - name: Generate AI drafts (skips automatically if secrets are not configured)
+      - name: Generate AI drafts via GitHub Models (GITHUB_TOKEN — no secrets needed)
         env:
-          DRAFT_API_KEY: ${{ secrets.DRAFT_API_KEY }}
-          DRAFT_API_BASE: ${{ secrets.DRAFT_API_BASE }}
-          DRAFT_API_MODEL: ${{ secrets.DRAFT_API_MODEL }}
+          # Defaults to GitHub Models (models.github.ai) using the built-in
+          # GITHUB_TOKEN with the "models: read" permission. If the owner
+          # later sets DRAFT_* secrets (e.g. a dedicated API provider), they
+          # automatically take precedence over these defaults.
+          DRAFT_API_KEY: ${{ secrets.DRAFT_API_KEY || github.token }}
+          DRAFT_API_BASE: ${{ secrets.DRAFT_API_BASE || 'https://models.github.ai/inference' }}
+          DRAFT_API_MODEL: ${{ secrets.DRAFT_API_MODEL || 'openai/gpt-4o-mini' }}
           DRAFT_MAX: "3"
         run: node scripts/draft-news.js
+        continue-on-error: true
 
       - name: Commit queue and drafts for editorial review
         run: |
