@@ -1,0 +1,30 @@
+{
+  "id": "03f6f3335a71",
+  "status": "draft",
+  "requiresEditorialApproval": true,
+  "disclaimer": "AI-generated draft from an RSS item. Nothing here is published until an editor verifies claims, confirms sourcing and adds an approved record to news.json.",
+  "draftedBy": "in-session AI assistant (Z.ai) — GitHub Models route was retired 2026-07-30 and Copilot CLI is not enabled on this account, so this draft was prepared manually by the assistant for review",
+  "candidate": {
+    "headline": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o",
+    "publishedAt": "2026-10-23T18:14:04.000Z",
+    "retrievedAt": "2026-10-23T22:21:02.905Z"
+  },
+  "draft": {
+    "suggestedHeadline": "US lifts 50% tariffs on some Canadian goods two weeks before midterms",
+    "category": "World",
+    "summary": "The White House confirmed on Friday that 50% tariffs will be eased on a range of Canadian goods — including plywood sheets, some paper products, certain machinery, refrigeration equipment and some packing crates and boxes — from 30 October. New tariffs will meanwhile be placed on carpets and \"waste products\". Republican Senator Susan Collins had announced the exemptions first; she is in a tight re-election race in Maine, whose blueberry, potato, apple and seaweed producers depend on cross-border trade with Canada.",
+    "claimsToVerify": [
+      "Confirm the full official list of products whose 50% tariffs are lifted, from a White House or USTR statement",
+      "Confirm the exact effective date of 30 October from an official source",
+      "Verify Susan Collins' exact role and quote about asking Trump officials for relief",
+      "Verify the claim that the US imposed 50% tariffs on roughly $20bn of Canadian goods after August talks collapsed",
+      "Confirm spokesperson name \"Matthew Middleton\" spelling and title from a second source",
+      "Check the latest state of Canadian countermeasures and Prime Minister Mark Carney's position"
+    ],
+    "verificationNotes": "All facts above come from a single BBC report fetched on 24 October 2026; no independent second source was checked during drafting. The timing angle (two weeks before midterms, Collins' tight race) is the BBC's framing and should be attributed, not stated as fact. Tariff lists change frequently — re-verify the product list on publication day.",
+    "isSensitive": false
+  },
+  "draftedAt": "2026-10-24T16:30:00.000Z"
+}
