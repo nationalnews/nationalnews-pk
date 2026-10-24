@@ -1,0 +1,33 @@
+name: Models endpoint diagnostic
+
+on:
+  workflow_dispatch:
+
+permissions:
+  models: read
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test GitHub Models endpoint variants
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test_ep() {
+            echo "=== POST $1 (model=$2) ==="
+            code=$(curl -s -o /tmp/body.txt -w "%{http_code}" --max-time 30 -X POST "$1" \
+              -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" \
+              -d "{\"model\":\"$2\",\"messages\":[{\"role\":\"user\",\"content\":\"Say hello\"}],\"max_tokens\":20}")
+            echo "HTTP $code | content-type: $(curl -sI --max-time 20 -X POST "$1" -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" -d "{\"model\":\"$2\",\"messages\":[{\"role\":\"user\",\"content\":\"Say hello\"}]}" | grep -i '^content-type' | tr -d '\r')"
+            echo "body: $(head -c 200 /tmp/body.txt)"
+            echo
+          }
+          test_ep "https://models.github.ai/inference/chat/completions" "openai/gpt-4o-mini"
+          test_ep "https://models.github.ai/chat/completions" "openai/gpt-4o-mini"
+          test_ep "https://models.inference.ai.azure.com/chat/completions" "gpt-4o-mini"
+          echo "=== GET https://models.github.ai/catalog ==="
+          curl -s --max-time 20 "https://models.github.ai/catalog" -H "Authorization: Bearer $GH_TOKEN" | head -c 300
+          echo
+          echo "=== ai-inference action style: no trailing path via POST /inference ==="
+          curl -s --max-time 20 -X POST "https://models.github.ai/inference" -H "Authorization: Bearer $GH_TOKEN" -H "Content-Type: application/json" -d '{"model":"openai/gpt-4o-mini","input":"Say hello"}' | head -c 300
