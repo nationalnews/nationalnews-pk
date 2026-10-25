@@ -1,10 +1,10 @@
 {
-  "runAt": "2026-10-24T16:21:28.779Z",
+  "runAt": "2026-10-25T03:20:35.411Z",
   "sourceResults": [
     {
       "source": "Dawn News",
       "ok": true,
-      "items": 26
+      "items": 28
     },
     {
       "source": "The News International",
@@ -19,7 +19,7 @@
     {
       "source": "BBC News — World",
       "ok": true,
-      "items": 30
+      "items": 31
     },
     {
       "source": "BBC News — Business",
