@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-10-25T11:17:43.515Z",
+  "runAt": "2026-10-26T03:24:38.186Z",
   "sourceResults": [
     {
       "source": "Dawn News",
@@ -32,11 +32,11 @@
       "items": 25
     }
   ],
-  "freshCandidates": 201,
+  "freshCandidates": 196,
   "totalQueued": 120,
   "safety": {
     "policyVersion": 1,
     "blockedDropped": 0,
-    "reviewFlagged": 31
+    "reviewFlagged": 33
   }
 }
