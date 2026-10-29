@@ -1,14 +1,117 @@
 [
   {
-    "id": "ff0ec9f53d55",
+    "id": "5c3cad395fdf",
     "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040583/health-ministry-scraps-flawed-vaccine-tender",
-    "headline": "Health ministry scraps ‘flawed’ vaccine tender",
-    "description": "&lt;p&gt;• Border Health Services vaccination setup abolished; new ministry tender due in a month&lt;br&gt;• Officials arrested for bypassing ministry via parallel procurement committees&lt;br&gt;• Pilgrims asked to arrange jabs thru travel agents&lt;/p&gt; &lt;p&gt;ISLAMABAD: The Ministry of National Health Services has decided to issue a new procurement tender for meningococcal meningitis and influenza vaccines for overseas travellers within a month, following its decision to abolish the existing vaccination setup through Border Health Services (BHS).&lt;/p&gt; &lt;p&gt;The decision follows ",
-    "publishedAt": "2026-10-29T02:47:37.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.261Z",
+    "sourceUrl": "https://www.dawn.com/news/2040694/atc-sentences-imaan-hadi-to-10-years-in-security-breach-case",
+    "headline": "ATC sentences Imaan, Hadi to 10 years in security breach case",
+    "description": "&lt;p&gt;ISLAMABAD: An anti-terrorism court on Thursday sentenced human rights lawyer Imaan Zainab Mazari-Hazir and her husband, Hadi Ali Chattha, to 10 years in prison each in the security breach case.&lt;/p&gt; &lt;p&gt;Judge Tahir Abbas Sipra announced the verdict at Adiala Jail, where the trial was conducted.&lt;/p&gt; &lt;p&gt;The sentence was handed down under three separate legal provisions. Fines were also imposed on both accused.&lt;/p&gt; &lt;figure class='media w-full sm:w-1/2 media--right media--embed media--uneven' data-original-src='https://www.dawn.com/news/1968787'&gt; &lt;div ",
+    "publishedAt": "2026-10-29T10:05:04.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.618Z",
+    "suggestedCategory": "Pakistan",
+    "safety": {
+      "level": "review",
+      "reasons": [
+        {
+          "id": "political-legal",
+          "label": "Politicians' legal matters / political crisis",
+          "level": "review",
+          "matched": [
+            "adiala jail"
+          ]
+        }
+      ]
+    },
+    "firstSeenAt": "2026-10-29T11:30:30.618Z"
+  },
+  {
+    "id": "cc21f57f4cdd",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040695/not-defence-ministrys-mandate-asif-responds-to-fazls-remarks-about-his-absence-at-tehran-huddle",
+    "headline": "'Not defence ministry's mandate': Asif responds to Fazl's remarks about his absence at Tehran huddle",
+    "description": "&lt;p&gt;Defence Minister Khawaja Asif responded on Thursday to Jamiat Ulema-i-Islam-Fazl (JUI-F) chief Maulana Fazlur Rehman’s remarks regarding the former’s non-participation in a recent huddle in Tehran.&lt;/p&gt; &lt;p&gt;The &lt;a href=\"https://www.dawn.com/news/2040129\"&gt;meeting&lt;/a&gt; brought together officials from member countries of the Makkah Defence Alliance — Saudi Defence Minister Prince Khalid bin Salman, Pakistan’s Chief of Defence Forces and Chief of Army Staff Field Marshal Asim Munir and Turkish intelligence chief Ibrahim Kalin — in Tehran, where Iranian Foreign Ministe",
+    "publishedAt": "2026-10-29T09:51:26.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.619Z",
+    "suggestedCategory": "World",
+    "safety": {
+      "level": "review",
+      "reasons": [
+        {
+          "id": "military-establishment",
+          "label": "Military / security establishment",
+          "level": "review",
+          "matched": [
+            "chief of army staff"
+          ]
+        }
+      ]
+    },
+    "firstSeenAt": "2026-10-29T11:30:30.619Z"
+  },
+  {
+    "id": "c75e16cd2b87",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040677/singapore-foreign-minister-to-undertake-official-visit-to-pakistan-on-oct-30",
+    "headline": "Singapore foreign minister to undertake official visit to Pakistan on Oct 30",
+    "description": "&lt;p&gt;Singapore’s Minister for Foreign Affairs Dr Vivian Balakrishnan will undertake an official visit to Islamabad on Friday (Oct 30) at the invitation of Deputy Prime Minister and Foreign Minister Ishaq Dar, the Foreign Office (FO) said on Thursday.&lt;/p&gt; &lt;p&gt;“The visit assumes significance as it coincides with the 60th anniversary of the establishment of diplomatic relations between Pakistan and Singapore and comes ahead of Singapore’s assumption of the Asean chairmanship in 2027,” the FO said in a statement.&lt;/p&gt; &lt;figure class='media w-full w-full media-- media--embed m",
+    "publishedAt": "2026-10-29T07:10:35.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.619Z",
+    "suggestedCategory": "World",
+    "firstSeenAt": "2026-10-29T11:30:30.619Z"
+  },
+  {
+    "id": "19169a7012a0",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040660/at-least-5-killed-over-two-dozen-injured-as-bus-plunges-into-drain-in-punjabs-hafizabad",
+    "headline": "At least 5 killed, over two dozen injured as bus plunges into drain in Punjab's Hafizabad",
+    "description": "&lt;p&gt;LAHORE: At least five people were killed and 27 others injured when a passenger bus plunged into a drain in Punjab’s Hafizabad district on Thursday, according to Rescue 1122.&lt;/p&gt; &lt;p&gt;Rescue services said the mishap occurred in the Fatehke area of Pindi Bhattian tehsil. The bus was reportedly on its way from Raiwind to Chiniot.&lt;/p&gt; &lt;p&gt;According to rescue officials, overspeeding caused the driver to lose control of the vehicle. Soon after the accident, teams from Rescue 1122 reached the site and launched rescue operations.&lt;/p&gt; &lt;p&gt;The injured were provi",
+    "publishedAt": "2026-10-29T05:32:59.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.619Z",
+    "suggestedCategory": "Pakistan",
+    "firstSeenAt": "2026-10-29T11:30:30.619Z"
+  },
+  {
+    "id": "2bc2c45da3cd",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040705/pakistan-china-sign-agreement-to-operationalise-green-channel-at-sost-khunjerab-border",
+    "headline": "Pakistan, China sign agreement to operationalise green channel at Sost-Khunjerab border",
+    "description": "&lt;p&gt;ISLAMABAD: Pakistan and China have signed an agreement to operationalise a green channel at the Sost-Khunjerab border for agricultural and allied products to facilitate bilateral trade.&lt;/p&gt; &lt;p&gt;The agreement was signed online between the customs administrations of the two countries at the Federal Board of Revenue (FBR) on Thursday. The Pakistani delegation was led by Member Customs (Operations) Syed Shakeel Shah, while the Chinese delegation was headed by Li Qinghua, deputy head of Urumqi Customs and director of Tashkurgan Customs.&lt;/p&gt; &lt;p&gt;According to an officia",
+    "publishedAt": "2026-10-29T10:42:26.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.619Z",
     "suggestedCategory": "Business",
-    "firstSeenAt": "2026-10-29T03:35:45.261Z"
+    "firstSeenAt": "2026-10-29T11:30:30.619Z"
+  },
+  {
+    "id": "30a4a046cbd1",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040672/death-toll-from-thar-ambulance-fire-rises-to-nine-district-official",
+    "headline": "Death toll from Thar ambulance fire rises to nine: district official",
+    "description": "&lt;p&gt;HYDERABAD: The death toll from an ambulance fire in Sindh’s Tharparkar rose to nine on Thursday, according to Mithi Deputy Commissioner Hameed Jagirani.&lt;/p&gt; &lt;p&gt;The incident occurred on Wednesday night when an oxygen cylinder exploded in an ambulance at a Peoples Primary Healthcare Initiative (PPHI)-run hospital in the Dano Dhandhal area of Nagarparkar taluka.&lt;/p&gt; &lt;p&gt;Jagirani said the blast occurred in an oxygen cylinder while it was being managed for a female patient in the ambulance.&lt;/p&gt; &lt;p&gt;The woman had given birth to a baby boy at a basic health ",
+    "publishedAt": "2026-10-29T08:04:48.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.620Z",
+    "suggestedCategory": "World",
+    "firstSeenAt": "2026-10-29T11:30:30.620Z"
+  },
+  {
+    "id": "0c9232991005",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040684/lahore-ranks-worlds-most-polluted-major-city-as-punjab-battles-poor-air-quality",
+    "headline": "Lahore ranks world’s most polluted major city as Punjab battles poor air quality",
+    "description": "&lt;p&gt;LAHORE: Lahore was ranked the world’s most polluted major city on Thursday, with an Air Quality Index (AQI) of 419, as air pollution levels remained high across Punjab ahead of the peak &lt;a href=\"https://www.dawn.com/news/1950531\"&gt;smog season&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;According to IQAir’s live global ranking for 10am to 11am on Oct 29, Lahore topped the list, followed by Cairo with an AQI of 274 and Delhi with 220. Karachi was ranked eighth, with an AQI of 165.&lt;/p&gt; &lt;figure class='media w-1/2 sm:w-1/2 media--center media--uneven media--stretch' data-original-src='http",
+    "publishedAt": "2026-10-29T08:41:23.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.620Z",
+    "suggestedCategory": "Pakistan",
+    "firstSeenAt": "2026-10-29T11:30:30.620Z"
+  },
+  {
+    "id": "161c6c2cc5fc",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040685/afghanistan-opium-poppy-cultivation-surges-despite-taliban-govt-ban-un",
+    "headline": "Afghanistan opium poppy cultivation surges despite Taliban govt ban: UN",
+    "description": "&lt;p&gt;Opium poppy cultivation in Afghanistan more than quadrupled in 2026 despite a Taliban government&lt;a href=\"https://www.dawn.com/news/1964027\"&gt; ban,&lt;/a&gt; the United Nations said on Thursday, urging that impoverished farmers needed alternatives to the lucrative crop.&lt;/p&gt; &lt;p&gt;Cultivated areas reached 43,000 hectares (around 106,200 acres), up from 10,000 hectares in 2025, while estimated opium production jumped fivefold from 300 tonnes to 1,500 tonnes, the United Nations Office on Drugs and Crime (UNODC) said in a report.&lt;/p&gt; &lt;p&gt;Long the world’s leading pr",
+    "publishedAt": "2026-10-29T07:35:47.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.621Z",
+    "suggestedCategory": "World",
+    "firstSeenAt": "2026-10-29T11:30:30.621Z"
   },
   {
     "id": "5bedac5a2b16",
@@ -17,9 +120,86 @@
     "headline": "Diesel price nears Rs400 as govt adds over a rupee to petrol, HSD rates",
     "description": "&lt;div class=\"raw-html-embed-wrapper\" style=\"width: 100%;\"&gt; &lt;script type=\"text/plain\" class=\"raw-html-source\"&gt; &lt;div class=\"fpw-root\"&gt; &lt;div class=\"fpw-header\"&gt; &lt;div class=\"fpw-title\"&gt;Pakistan fuel prices, 2026&lt;/div&gt; &lt;div class=\"fpw-sub\"&gt;Official ex-depot prices (PKR/litre) — OGRA &amp;amp; Ministry of Energy notifications&lt;/div&gt; &lt;/div&gt; &lt;div class=\"fpw-legend\" aria-hidden=\"true\"&gt; &lt;span class=\"fpw-li\"&gt;&lt;span class=\"fpw-dot fpw-dot--navy\"&gt;&lt;/span&gt;Petrol (MS-92)&lt;/span&gt; &lt;span class=\"fpw-li\"&gt;&lt;span class=\"fpw-dot f",
     "publishedAt": "2026-10-28T18:18:56.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.261Z",
+    "retrievedAt": "2026-10-29T11:30:30.622Z",
     "suggestedCategory": "Business",
     "firstSeenAt": "2026-10-29T03:35:45.261Z"
+  },
+  {
+    "id": "ff0ec9f53d55",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040583/health-ministry-scraps-flawed-vaccine-tender",
+    "headline": "Health ministry scraps ‘flawed’ vaccine tender",
+    "description": "&lt;p&gt;• Border Health Services vaccination setup abolished; new ministry tender due in a month&lt;br&gt;• Officials arrested for bypassing ministry via parallel procurement committees&lt;br&gt;• Pilgrims asked to arrange jabs thru travel agents&lt;/p&gt; &lt;p&gt;ISLAMABAD: The Ministry of National Health Services has decided to issue a new procurement tender for meningococcal meningitis and influenza vaccines for overseas travellers within a month, following its decision to abolish the existing vaccination setup through Border Health Services (BHS).&lt;/p&gt; &lt;p&gt;The decision follows ",
+    "publishedAt": "2026-10-29T02:47:37.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.623Z",
+    "suggestedCategory": "Business",
+    "firstSeenAt": "2026-10-29T03:35:45.261Z"
+  },
+  {
+    "id": "39cf217839f7",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040678/pillion-riding-banned-in-kps-bajaur-for-10-days-owing-to-security-situation",
+    "headline": "Pillion riding banned in KP's Bajaur for 10 days owing to security situation",
+    "description": "&lt;p&gt;BAJAUR: The district administration banned pillion riding in Khyber Pakhtunkhwa’s Bajaur for 10 days on Thursday by invoking Section 144 of the Code of Criminal Procedure (CrPC) owing to the security situation.&lt;/p&gt; &lt;p&gt;The notification for the restriction, issued by Deputy Commissioner (DC) Adnan Farid’s office, said the measure was taken in view of reports from intelligence agencies and the police department.&lt;/p&gt; &lt;p&gt;Given the prevailing security situation and the possible use of motorcycles in terrorist activities, there was a need for immediate preventive meas",
+    "publishedAt": "2026-10-29T07:46:05.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.624Z",
+    "suggestedCategory": "Pakistan",
+    "firstSeenAt": "2026-10-29T11:30:30.624Z"
+  },
+  {
+    "id": "1f36631e4cd2",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040577/arrest-warrants-for-sohail-afridi-others-out-in-radio-pakistan-attack-case",
+    "headline": "Arrest warrants for Sohail Afridi, others out in Radio Pakistan attack case",
+    "description": "&lt;p&gt;PESHAWAR: An anti-terrorism court on Wednesday issued arrest warrants for Sohail Afridi, the ex-chief minister who was rendered nonfunctional after the imposition of governor’s rule in Khyber Pakhtunkhwa, and four other PTI leaders in the &lt;a href=\"https://www.dawn.com/news/2036953\"&gt;Radio Pakistan attack case&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;The prosecution had earlier placed the supplementary charge-sheet on the court record, but the hearing was adjourned until Oct 28 due to the judge’s absence.&lt;/p&gt; &lt;p&gt;Besides Mr Afridi, the supplementary challan names former provincial",
+    "publishedAt": "2026-10-29T03:07:29.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.624Z",
+    "suggestedCategory": "Pakistan",
+    "firstSeenAt": "2026-10-29T03:35:45.263Z"
+  },
+  {
+    "id": "3ca5d455d725",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040517/inquiry-holds-school-owner-responsible-for-roof-collapse",
+    "headline": "Inquiry holds school owner responsible for roof collapse",
+    "description": "&lt;p&gt;PESHAWAR: An inquiry into the recent deadly collapse of a school roof here has held the owner responsible for using substandard construction material.&lt;/p&gt; &lt;p&gt;It also pointed out negligence on the part of the relevant departments.&lt;/p&gt; &lt;p&gt;The inquiry report was presented to Governor Faisal Karim Kundi during a meeting chaired by him here, according to an official statement issued by his office.&lt;/p&gt; &lt;p&gt;The meeting was attended by adviser to the governor Dr Amir Abdullah, chief secretary Dr Fakhar Alam Irfan, education secretary Inayatullah Waseem and m",
+    "publishedAt": "2026-10-29T05:02:44.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.624Z",
+    "suggestedCategory": "World",
+    "firstSeenAt": "2026-10-29T11:30:30.624Z"
+  },
+  {
+    "id": "23b1c9222a18",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040535/45-nust-researchers-ranked-among-top-2pc-of-global-scientists",
+    "headline": "45 Nust researchers ranked among top 2pc of global scientists",
+    "description": "&lt;p&gt;ISLAMABAD: As many as 45 researchers from the National University of Sciences and Technology (Nust) have earned the prestigious honour of being among the world’s top 2pc of scientists in 2026, say rankings compiled by Stanford University and Elsevier.&lt;/p&gt; &lt;p&gt;According to a press release issued by Nust, the distinction places Nust researchers among an international community of leading scholars whose work is contributing immensely to the advancement of knowledge and scientific progress across diverse disciplines.&lt;/p&gt; &lt;p&gt;Notably, 16 Nust researchers have consiste",
+    "publishedAt": "2026-10-29T02:02:48.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.625Z",
+    "suggestedCategory": "World",
+    "firstSeenAt": "2026-10-29T11:30:30.625Z"
+  },
+  {
+    "id": "8f128f9cd5da",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040548/karachi-man-guns-down-two-sisters-for-using-tiktok",
+    "headline": "Karachi man guns down two sisters for ‘using TikTok’",
+    "description": "&lt;p&gt;KARACHI: Two young sisters were allegedly shot dead by their brother over their use of social media in Drigh Road, within the jurisdiction of Shah Faisal Colony police, on Wednesday, police said.&lt;/p&gt; &lt;p&gt;Korangi SSP Fida Husain Janwari told &lt;em&gt;Dawn&lt;/em&gt; that Sobia, 25, and Hira, 20, were gunned down inside their home in New Rehmanabad by their brother, Rehan.&lt;/p&gt; &lt;p&gt;The senior officer said the initial investigation suggested that the suspect had warned his sisters against using TikTok, which appeared to be a possible motive behind the double murder.",
+    "publishedAt": "2026-10-29T04:38:09.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.625Z",
+    "suggestedCategory": "Pakistan",
+    "firstSeenAt": "2026-10-29T11:30:30.625Z"
+  },
+  {
+    "id": "0953eb9d3e5c",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040573/commodity-prices-to-surge-23pc-warns-world-bank",
+    "headline": "Commodity prices to surge 23pc, warns World Bank",
+    "description": "&lt;p&gt;WASHINGTON: Global commodity prices are set to surge 23 per cent in 2026, the World Bank said on Wednesday, citing rising energy prices and disruptions to cargo shipping during the Middle East war, grain shipment problems in the Black Sea and high demand for safe-haven assets such as gold.&lt;/p&gt; &lt;p&gt;Oil, natural gas, food and metals prices all rose sharply this year as global shocks mounted, the World Bank said in its latest Commodity Markets Outlook. It said the situation could worsen if the conflict in the Middle East ratcheted up and damage to Russian oil infrastructure co",
+    "publishedAt": "2026-10-29T03:25:40.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.626Z",
+    "suggestedCategory": "Business",
+    "firstSeenAt": "2026-10-29T03:35:45.263Z"
   },
   {
     "id": "294aa8eaadfa",
@@ -28,7 +208,7 @@
     "headline": "Noreen Niazi moved from Lahore jail to hospital due to high blood pressure: lawyer",
     "description": "&lt;p&gt;LAHORE: Incarcerated PTI founder Imran Khan’s sister Noreen Niazi was moved from Lahore’s Kot Lakhpat jail to the Punjab Institute of Cardiology on Wednesday due to high blood pressure, her lawyer said.&lt;/p&gt; &lt;p&gt;Three sisters of the ex-premier — Noreen, Aleema Khan, and Uzma Khan — have been &lt;a href=\"https://www.dawn.com/news/2031544\"&gt;detained&lt;/a&gt; since Sept 21 under the Punjab Maintenance of Public Order Ordinance, 1960 (MPO) on the Lahore deputy commissioner’s (DC) orders. They are currently serving the second term of a 30-day detention under the MPO, which was",
     "publishedAt": "2026-10-28T18:54:39.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.263Z",
+    "retrievedAt": "2026-10-29T11:30:30.626Z",
     "suggestedCategory": "Pakistan",
     "safety": {
       "level": "review",
@@ -46,15 +226,37 @@
     "firstSeenAt": "2026-10-29T03:35:45.263Z"
   },
   {
-    "id": "1f36631e4cd2",
+    "id": "b042068a2ec1",
     "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040577/arrest-warrants-for-sohail-afridi-others-out-in-radio-pakistan-attack-case",
-    "headline": "Arrest warrants for Sohail Afridi, others out in Radio Pakistan attack case",
-    "description": "&lt;p&gt;PESHAWAR: An anti-terrorism court on Wednesday issued arrest warrants for Sohail Afridi, the ex-chief minister who was rendered nonfunctional after the imposition of governor’s rule in Khyber Pakhtunkhwa, and four other PTI leaders in the &lt;a href=\"https://www.dawn.com/news/2036953\"&gt;Radio Pakistan attack case&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;The prosecution had earlier placed the supplementary charge-sheet on the court record, but the hearing was adjourned until Oct 28 due to the judge’s absence.&lt;/p&gt; &lt;p&gt;Besides Mr Afridi, the supplementary challan names former provincial",
-    "publishedAt": "2026-10-29T03:07:29.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.263Z",
+    "sourceUrl": "https://www.dawn.com/news/2040546/court-rejects-plea-to-add-murder-terrorism-charges-in-karachis-gul-plaza-fire-case",
+    "headline": "Court rejects plea to add murder, terrorism charges in Karachi's Gul Plaza fire case",
+    "description": "&lt;p&gt;KARACHI: Rejecting an application seeking the addition of murder and terrorism charges, a judicial magistrate accepted the charge sheet in the Gul Plaza fire case on Wednesday, in which the police blamed the building management’s “negligence”.&lt;/p&gt; &lt;p&gt;The deadly inferno, which erupted on the night of January 17 at the shopping mall and took nearly two days to be fully extinguished, had claimed at least 73 lives and left over 1,100 shops in ruins.&lt;/p&gt; &lt;p&gt;Judicial Magistrate (South) Aasim Aslam pronounced his order on Wednesday, in which he accepted the final char",
+    "publishedAt": "2026-10-29T04:30:08.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.626Z",
     "suggestedCategory": "Pakistan",
-    "firstSeenAt": "2026-10-29T03:35:45.263Z"
+    "firstSeenAt": "2026-10-29T11:30:30.626Z"
+  },
+  {
+    "id": "465514102bf5",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040668/forest-loss-wildfires-in-indonesia-put-orangutans-at-high-extinction-risk",
+    "headline": "Forest loss, wildfires in Indonesia put orangutans at high extinction risk",
+    "description": "&lt;p&gt;Orangutan populations are at a higher risk of extinction amid soaring forest loss and raging wildfires across key habitats in Sumatra and Kalimantan, as the world struggles to keep up with the global target of halting biodiversity loss by 2030.&lt;/p&gt; &lt;p&gt;In a joint report published on Oct 24, environmental groups Mighty Earth and Satya Bumi issued a “red code” warning for the Tapanuli orangutan, often considered world’s rarest great ape, which is facing a higher extinction risk.&lt;/p&gt; &lt;p&gt;The species is endemic to the fragmented forests of the Batang Toru ecosystem i",
+    "publishedAt": "2026-10-29T06:19:51.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.626Z",
+    "suggestedCategory": "World",
+    "firstSeenAt": "2026-10-29T11:30:30.626Z"
+  },
+  {
+    "id": "9d1a010f3790",
+    "sourceName": "Dawn News",
+    "sourceUrl": "https://www.dawn.com/news/2040667/bangladesh-presses-india-before-ganges-water-treaty-expires",
+    "headline": "Bangladesh presses India before Ganges water treaty expires",
+    "description": "&lt;p&gt;With a 30-year Ganges water-sharing treaty with India expiring in December, Bangladesh fears failure to strike a new deal could deepen water shortages, threatening tens of millions of livelihoods.&lt;/p&gt; &lt;p&gt;In Bangladesh’s parched Barind region, 72-year-old Bikash Soren remembers when the Ganges river flowing in from neighbouring India carried large boats past his village year-round.&lt;/p&gt; &lt;p&gt;“For almost three months a year, you hardly see the river flowing,” the Protestant priest said.&lt;/p&gt; &lt;p&gt;Two farmers died by suicide last season, he added, after dwin",
+    "publishedAt": "2026-10-29T06:01:09.000Z",
+    "retrievedAt": "2026-10-29T11:30:30.627Z",
+    "suggestedCategory": "Business",
+    "firstSeenAt": "2026-10-29T11:30:30.627Z"
   },
   {
     "id": "41b5381c0d13",
@@ -63,7 +265,7 @@
     "headline": "SC okays fresh probe into FIA role in boat tragedy",
     "description": "&lt;p&gt;• Court upholds FST order reinstating 40 officers linked to 2023 boat capsize off Greece&lt;br /&gt; • Agency argues tribunal overturned sackings on technicalities; three-judge bench directs agency to fulfil requirements of due process&lt;/p&gt; &lt;p&gt;ISLAMABAD: The Supreme Court on Wednesday cleared the way for the Fe­­deral Investigation Agency (FIA) to reopen a departmental inquiry against officials allegedly linked to the fatal 2023 Greek migrant boat capsize tragedy.&lt;/p&gt; &lt;p&gt;However, the court rejected the FIA’s appeal against an April 14 Federal Service Tribunal (F",
     "publishedAt": "2026-10-29T02:01:30.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.263Z",
+    "retrievedAt": "2026-10-29T11:30:30.627Z",
     "suggestedCategory": "Pakistan",
     "safety": {
       "level": "review",
@@ -81,24 +283,13 @@
     "firstSeenAt": "2026-10-29T03:35:45.263Z"
   },
   {
-    "id": "0953eb9d3e5c",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040573/commodity-prices-to-surge-23pc-warns-world-bank",
-    "headline": "Commodity prices to surge 23pc, warns World Bank",
-    "description": "&lt;p&gt;WASHINGTON: Global commodity prices are set to surge 23 per cent in 2026, the World Bank said on Wednesday, citing rising energy prices and disruptions to cargo shipping during the Middle East war, grain shipment problems in the Black Sea and high demand for safe-haven assets such as gold.&lt;/p&gt; &lt;p&gt;Oil, natural gas, food and metals prices all rose sharply this year as global shocks mounted, the World Bank said in its latest Commodity Markets Outlook. It said the situation could worsen if the conflict in the Middle East ratcheted up and damage to Russian oil infrastructure co",
-    "publishedAt": "2026-10-29T03:25:40.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.263Z",
-    "suggestedCategory": "Business",
-    "firstSeenAt": "2026-10-29T03:35:45.263Z"
-  },
-  {
     "id": "3e8095c2748a",
     "sourceName": "Dawn News",
     "sourceUrl": "https://www.dawn.com/news/2040481/pakistan-terms-afghan-claims-regarding-angoor-adda-incident-fabrication-of-lies",
     "headline": "Pakistan terms Afghan claims regarding Angoor Adda incident 'fabrication of lies'",
     "description": "&lt;p&gt;The Ministry of Information and Broadcasting on Wednesday dismissed a statement by Afghanistan’s defence ministry regarding the firing at Angoor Adda border area, terming it a “fabrication of lies”.&lt;/p&gt; &lt;p&gt;Afghan security forces opened &lt;a href=\"https://www.dawn.com/news/2040360\"&gt;unprovoked fire&lt;/a&gt; on Pakistan Army border posts and residential areas in the border area in Lower South Waziristan on Tuesday. The attack, which violated border protocols, claimed the life of one local and injured five, while provoking a swift response from security forces.&lt;/p&gt; ",
     "publishedAt": "2026-10-28T16:21:13.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.264Z",
+    "retrievedAt": "2026-10-29T11:30:30.628Z",
     "suggestedCategory": "Pakistan",
     "safety": {
       "level": "review",
@@ -122,334 +313,9 @@
     "headline": "Fazl accuses govt of 'misusing' Constitution when imposing emergency, governor's rule in KP",
     "description": "&lt;p&gt;ISLAMABAD: Jamiat Ulema-i-Islam—Fazl (JUI-F) chief Maulana Fazlur Rehman on Wednesday accused the government of misusing the Constitution and resorting to unconstitutional measures in &lt;a href=\"https://www.dawn.com/news/2036352/emergency-governors-rule-imposed-in-kp-as-president-approves-cabinet-decision\"&gt;imposing&lt;/a&gt; governor’s rule and an emergency in Khyber Pakhtunkhwa.&lt;/p&gt; &lt;p&gt;The Centre imposed &lt;a href=\"https://www.dawn.com/news/2036352/emergency-governors-rule-imposed-in-kp-as-president-approves-cabinet-decision\"&gt;&lt;u&gt;governor’s rule&lt;/u&gt;&lt;",
     "publishedAt": "2026-10-28T18:21:42.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.265Z",
+    "retrievedAt": "2026-10-29T11:30:30.628Z",
     "suggestedCategory": "Pakistan",
     "firstSeenAt": "2026-10-29T03:35:45.265Z"
-  },
-  {
-    "id": "4ec4098a07d9",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040402/netanyahu-set-to-remain-caretaker-prime-minister-after-inconclusive-israeli-election",
-    "headline": "Netanyahu set to remain caretaker prime minister after inconclusive Israeli election",
-    "description": "&lt;p&gt;Benjamin Netanyahu looked set to remain Israel’s caretaker prime minister after unexpectedly strong backing among Jewish voters left his opponents little apparent prospect of unseating him, despite his right-wing bloc losing its parliamentary majority.&lt;/p&gt; &lt;p&gt;With nearly 86 per cent of &lt;a href=\"https://www.dawn.com/news/2038812\"&gt;votes&lt;/a&gt; tallied on Wednesday, Israel’s three main broadcasters projected Netanyahu’s bloc of right-wing, far-right and ultra-Orthodox parties would win 53 seats in the 120-seat Knesset, well ahead of the 48 for rival Gadi Eisenkot’s o",
-    "publishedAt": "2026-10-28T19:42:08.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.265Z",
-    "suggestedCategory": "World",
-    "firstSeenAt": "2026-10-29T03:35:45.265Z"
-  },
-  {
-    "id": "72451625a145",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040474/world-bank-rates-progress-on-kp-hydropower-renewable-energy-project-moderately-unsatisfactory",
-    "headline": "World Bank rates progress on KP hydropower, renewable energy project 'moderately unsatisfactory'",
-    "description": "&lt;p&gt;ISLAMABAD: The World Bank on Wednesday dubbed the progress on the &lt;a rel=\"noopener noreferrer\" target=\"_blank\" class=\"link--external\" href=\"https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099122923141013085\"&gt;Khyber Pakhtunkhwa Hydropower and Renewable Energy Development&lt;/a&gt; project “moderately unsatisfactory”, with “substantial risk” to its $727 million loan meant for strengthening provincial institutions and increasing renewable energy generation.&lt;/p&gt; &lt;p&gt;In its &lt;a rel=\"noopener noreferrer\" target=\"_blank\" class=\"link--externa",
-    "publishedAt": "2026-10-28T16:00:50.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.267Z",
-    "suggestedCategory": "Business",
-    "firstSeenAt": "2026-10-29T03:35:45.267Z"
-  },
-  {
-    "id": "49b1252383f8",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040629/restructuring-plans",
-    "headline": "Restructuring plans",
-    "description": "&lt;p&gt;THE PPP appears quite perturbed over the fact that the creation of new provinces or administrative units continues to be discussed. Speaking at an event in Karachi on Tuesday, PPP chairman Bilawal Bhutto-Zardari &lt;a href=\"https://www.dawn.com/news/2040225\"&gt;asserted&lt;/a&gt; that no one outside Sindh could decide its future. “So we should now put a full stop to this conversation as well.”&lt;/p&gt; &lt;p&gt;The Bhutto scion said the people of Sindh and their elected representatives had “given their verdict” on this matter, ostensibly referring to a Sindh Assembly &lt;a href=\"http",
-    "publishedAt": "2026-10-29T03:22:55.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.267Z",
-    "suggestedCategory": "Pakistan",
-    "safety": {
-      "level": "review",
-      "reasons": [
-        {
-          "id": "political-legal",
-          "label": "Politicians' legal matters / political crisis",
-          "level": "review",
-          "matched": [
-            "bilawal bhutto"
-          ]
-        }
-      ]
-    },
-    "firstSeenAt": "2026-10-29T03:35:45.267Z"
-  },
-  {
-    "id": "70cd09a721fc",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040442/at-least-64-people-killed-in-spain-as-two-high-speed-trains-collide",
-    "headline": "At least 64 people killed in Spain as two high-speed trains collide",
-    "description": "&lt;p&gt;Rescue workers in Spain on Wednesday were scouring the wreckage for more bodies at the crash scene where at least 64 people were killed when two high-speed trains collided, in the second deadly railway accident in the country this year.&lt;/p&gt; &lt;p&gt;“We are speaking of approximately 64 (dead), but this is probably going to grow even more,” the leader of the central region of Castilla-La Mancha, Emiliano Garcia-Page, told reporters at the scene, raising a previous toll of 31.&lt;/p&gt; &lt;p&gt;Evacuated passengers streamed along a road near the scene, some splattered with blood ",
-    "publishedAt": "2026-10-28T13:38:36.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.267Z",
-    "suggestedCategory": "Sports",
-    "firstSeenAt": "2026-10-29T03:35:45.267Z"
-  },
-  {
-    "id": "b5d32038d85f",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040473/fcc-expresses-serious-concern-over-course-adopted-by-sc-bench-over-already-decided-matter",
-    "headline": "FCC expresses 'serious concern' over course adopted by SC bench over already-decided matter",
-    "description": "&lt;p&gt;ISLAMABAD: The Federal Constitutional Court (FCC) on Wednesday regretted the course adopted by a bench of the Supreme Court on an already determined matter by describing the approach as “something that raises serious concerns regarding judicial discipline, legal norms and institutional propriety”.&lt;/p&gt; &lt;p&gt;“The course adopted in the subsequent order, authored by Justice Munib Akhtar, raises serious concerns regarding judicial discipline, legal norms and institutional propriety, particularly when the earlier determination remained operative and was already the subject of revi",
-    "publishedAt": "2026-10-28T18:29:16.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.268Z",
-    "suggestedCategory": "Pakistan",
-    "safety": {
-      "level": "review",
-      "reasons": [
-        {
-          "id": "judiciary",
-          "label": "Judiciary / courts in sensitive matters",
-          "level": "review",
-          "matched": [
-            "supreme court"
-          ]
-        }
-      ]
-    },
-    "firstSeenAt": "2026-10-29T03:35:45.268Z"
-  },
-  {
-    "id": "3c0b05ad6f06",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040470/flavio-bolsonaro-lands-in-miami-with-his-family-after-trump-offers-brazil-exit",
-    "headline": "Flavio Bolsonaro lands in Miami with his family after Trump offers Brazil exit",
-    "description": "&lt;p&gt;Brazilian Senator Flavio Bolsonaro and his family arrived in Miami on Wednesday, where the United States government would grant them entry visas after he &lt;a href=\"https://www.dawn.com/news/2040371/flavio-bolsonaros-passports-cancelle\"&gt;refused to comply&lt;/a&gt; with a Brazilian Supreme Court order to surrender his passports.&lt;/p&gt; &lt;p&gt;Bolsonaro, who lost last Sunday’s &lt;a href=\"https://www.dawn.com/news/2039915\"&gt;presidential election&lt;/a&gt; to leftist incumbent Luiz Inacio Lula da Silva, left Brazil under a shroud of secrecy after the court order, which relates",
-    "publishedAt": "2026-10-28T14:55:19.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.268Z",
-    "suggestedCategory": "World",
-    "safety": {
-      "level": "review",
-      "reasons": [
-        {
-          "id": "judiciary",
-          "label": "Judiciary / courts in sensitive matters",
-          "level": "review",
-          "matched": [
-            "supreme court"
-          ]
-        }
-      ]
-    },
-    "firstSeenAt": "2026-10-29T03:35:45.268Z"
-  },
-  {
-    "id": "d2c375610f73",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040459/secret-to-countrys-development-lies-in-ai-and-digitisation-pm-shehbaz-stresses",
-    "headline": "Secret to country's development lies in AI and digitisation, PM Shehbaz stresses",
-    "description": "&lt;p&gt;ISLAMABAD: Prime Minister Shehbaz Sharif on Wednesday stressed that artificial intelligence (AI) and digitalisation could improve Pakistan’s trade, exports and other areas of development and called for effective implementation of the government’s strategic partnership with global marketing company Alibaba.&lt;/p&gt; &lt;p&gt;The premier was chairing a meeting in Islamabad reviewing progress on the use of AI and digitalisation in the economy and governance, as well as cooperation with Alibaba in these areas, according to a statement by the Prime Minister’s Office (PMO).&lt;/p&gt; &lt;p",
-    "publishedAt": "2026-10-28T15:04:55.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.268Z",
-    "suggestedCategory": "Business",
-    "safety": {
-      "level": "review",
-      "reasons": [
-        {
-          "id": "political-legal",
-          "label": "Politicians' legal matters / political crisis",
-          "level": "review",
-          "matched": [
-            "shehbaz sharif"
-          ]
-        }
-      ]
-    },
-    "firstSeenAt": "2026-10-29T03:35:45.268Z"
-  },
-  {
-    "id": "a6d11719494e",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040437/imaan-hadi-allege-security-breach-case-nothing-more-than-harassment-for-their-human-rights-work",
-    "headline": "Imaan, Hadi allege security breach case 'nothing more than harassment' for their human rights work",
-    "description": "&lt;p&gt;Human rights lawyer Imaan Zainab Mazari-Hazir and her husband, Hadi Ali Chattha, have alleged that the case against them pertaining to a security breach was “nothing more than harassment” for their legal and human rights work, falling under the broader pattern of targeting through “reprisals”.&lt;/p&gt; &lt;p&gt;On Tuesday, the case &lt;a href=\"https://www.dawn.com/news/2040233\"&gt;concluded&lt;/a&gt; at Adiala Jail, with the anti-terrorism court (ATC) reserving its verdict. Both accused recorded their statements under Section 342 (power to examine the accused) of the Code of Criminal",
-    "publishedAt": "2026-10-28T12:14:23.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.269Z",
-    "suggestedCategory": "Pakistan",
-    "safety": {
-      "level": "review",
-      "reasons": [
-        {
-          "id": "political-legal",
-          "label": "Politicians' legal matters / political crisis",
-          "level": "review",
-          "matched": [
-            "adiala jail"
-          ]
-        }
-      ]
-    },
-    "firstSeenAt": "2026-10-29T03:35:45.269Z"
-  },
-  {
-    "id": "14d69fb9056c",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040463/consignment-of-imported-wheat-arrives-at-karachi-port",
-    "headline": "Consignment of imported wheat arrives at Karachi port",
-    "description": "&lt;p&gt;KARACHI: Around 51,000 metric tonnes of imported wheat arrived at Karachi Port on Wednesday, according to the Karachi Port Trust (KPT).&lt;/p&gt; &lt;p&gt;“The geared vessel MV GOKOVA M, carrying a declared manifest of 51,000 metric tonnes of wheat, was allocated Berths 16 and 17 and arrived at Karachi Port at 1225 hours on Oct 28,” the press release said.&lt;/p&gt; &lt;figure class='media w-full w-full media-- media--embed media--uneven media--tweet' data-original-src='https://x.com/official_kpt/status/2115419673978441822'&gt; &lt;div class='media__item media__item--twitter '&gt;&lt;",
-    "publishedAt": "2026-10-28T17:43:24.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.269Z",
-    "suggestedCategory": "Business",
-    "firstSeenAt": "2026-10-29T03:35:45.269Z"
-  },
-  {
-    "id": "0d4fecca915e",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040496/israels-unassuming-president-herzog-holds-keys-to-next-government",
-    "headline": "Israel's unassuming President Herzog holds keys to next government",
-    "description": "&lt;p&gt;Israel’s President Isaac Herzog is known for his unassuming and mild manner, but all eyes will soon be on him as he decides who to task with forming the next coalition government.&lt;/p&gt; &lt;p&gt;The decision is a weighty one given that &lt;a href=\"https://www.dawn.com/news/2040402/netanyahu-set-to-remain-caretaker-prime-minister-after-inconclusive-israeli-election\"&gt;partial results&lt;/a&gt; from Tuesday’s &lt;a href=\"https://www.dawn.com/news/2040163/netanyahu-scrambles-for-votes-as-israelis-turn-out-in-record-numbers\"&gt;elections&lt;/a&gt; show neither the camp of Prime Minis",
-    "publishedAt": "2026-10-28T19:06:30.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.269Z",
-    "suggestedCategory": "World",
-    "firstSeenAt": "2026-10-29T03:35:45.269Z"
-  },
-  {
-    "id": "5accc1712026",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040454/govt-considering-creation-of-regulatory-authority-for-construction-industry",
-    "headline": "Govt considering creation of regulatory authority for construction industry",
-    "description": "&lt;p&gt;ISLAMABAD: The government is considering establishing two new bodies — a regulatory authority and a marketing entity — for the construction industry along with a three-year defect liability period for major construction projects in the country.&lt;/p&gt; &lt;p&gt;Private sector figures in construction and the government, however, differ over the financial size for the application of a defect liability period, with the construction industry seeking a minimum threshold of Rs20 billion and the government pushing for lower amounts.&lt;/p&gt; &lt;p&gt;These issues were discussed at an expl",
-    "publishedAt": "2026-10-28T15:48:58.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.270Z",
-    "suggestedCategory": "Business",
-    "firstSeenAt": "2026-10-29T03:35:45.270Z"
-  },
-  {
-    "id": "a76898e6314e",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040445/ecp-orders-immediate-local-body-polls-in-kp-districts-demarcated-sans-those-under-ardc",
-    "headline": "ECP orders immediate local body polls in KP districts demarcated, sans those under ARDC",
-    "description": "&lt;p&gt;ISLAMABAD: The Election Commission of Pakistan (ECP) on Wednesday ordered local government (LG) elections to be held immediately in Khyber Pakhtunkhwa districts where delimitation had been completed, excluding those included in the &lt;a href=\"https://www.dawn.com/news/2037886\"&gt;12 districts&lt;/a&gt; with special emergency measures.&lt;/p&gt; &lt;p&gt;A day earlier, the ECP had &lt;a href=\"https://www.dawn.com/news/2040363\"&gt;reserved the verdict&lt;/a&gt; after hearing the provincial government’s request to defer local government elections, citing &lt;a href=\"https://www.dawn.com",
-    "publishedAt": "2026-10-28T12:49:31.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.270Z",
-    "suggestedCategory": "Pakistan",
-    "firstSeenAt": "2026-10-29T03:35:45.270Z"
-  },
-  {
-    "id": "8b73d9a6c51e",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040495/whats-at-stake-for-trump-in-israels-deadlocked-election",
-    "headline": "What's at stake for Trump in Israel's deadlocked election?",
-    "description": "&lt;p&gt;With Israel’s election yielding &lt;a href=\"https://www.dawn.com/news/2040402/netanyahu-set-to-remain-caretaker-prime-minister-after-inconclusive-israeli-election\"&gt;no clear winner&lt;/a&gt;, US President Donald Trump could face prolonged uncertainty over who will lead Washington’s closest Middle East ally as he confronts challenges from &lt;a href=\"https://www.dawn.com/news/2038812\"&gt;Iran&lt;/a&gt; and Gaza across the region.&lt;/p&gt; &lt;p&gt;Prime Minister Benjamin Netanyahu’s right-wing bloc secured the most seats in Israel’s parliament but still lost its parliamentary majori",
-    "publishedAt": "2026-10-28T20:00:48.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.270Z",
-    "suggestedCategory": "World",
-    "firstSeenAt": "2026-10-29T03:35:45.270Z"
-  },
-  {
-    "id": "458e88d10518",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040428/conscience-does-not-permit-lhcs-justice-kayani-resigns-cites-executives-growing-control-over-judiciary",
-    "headline": "'Conscience does not permit': LHC's Justice Kayani resigns, cites 'executive's growing control' over judiciary",
-    "description": "&lt;p&gt;LAHORE: Lahore High Court’s (LHC) Justice Mohsin Akhtar Kayani resigned on Wednesday, citing personal reasons, including health concerns following a recent surgery, and “reasons of conscience”.&lt;/p&gt; &lt;p&gt;In his resignation letter to the president of Pakistan, a copy of which is available with &lt;em&gt;Dawn&lt;/em&gt;, Justice Kayani said it had been a privilege for him to serve at the Islamabad High Court (IHC) and LHC.&lt;/p&gt; &lt;p&gt;“These years of judicial service remain among the most meaningful and fulfilling of my life. During my tenure, I have disposed of more tha",
-    "publishedAt": "2026-10-28T14:13:16.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.271Z",
-    "suggestedCategory": "Pakistan",
-    "safety": {
-      "level": "review",
-      "reasons": [
-        {
-          "id": "judiciary",
-          "label": "Judiciary / courts in sensitive matters",
-          "level": "review",
-          "matched": [
-            "high court"
-          ]
-        }
-      ]
-    },
-    "firstSeenAt": "2026-10-28T11:30:43.166Z"
-  },
-  {
-    "id": "9166c7802661",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040431/haris-rauf-penalised-for-breach-of-icc-code-of-conduct-in-tri-series-match-against-england",
-    "headline": "Haris Rauf penalised for breach of ICC Code of Conduct in tri-series match against England",
-    "description": "&lt;p&gt;Pakistan pacer Haris Rauf has been fined 20pc of his match-fee for breaching the International Cricket Council (ICC) Code of Conduct during the One-day International (ODI) tri-series match against England on Sunday.&lt;/p&gt; &lt;p&gt;According to an ICC media released issued on Wednesday, Haris was found to be in breach of Level 1 of the code for appealing for a wide from the n0n-striker’s end in the 46th over and argued with England all-rounder Will Jacks after it was denied.&lt;/p&gt; &lt;p&gt;The ICC said Haris ignored the warning given from on-field umpire Sharfuddoula and contin",
-    "publishedAt": "2026-10-28T15:23:22.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.271Z",
-    "suggestedCategory": "Sports",
-    "firstSeenAt": "2026-10-28T11:30:43.169Z"
-  },
-  {
-    "id": "344c86d4c750",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040427/9-india-sponsored-terrorists-killed-in-balochistan-ibos-ispr",
-    "headline": "9 India-sponsored terrorists killed in Balochistan IBOs: ISPR",
-    "description": "&lt;p&gt;Nine India-sponsored terrorists were killed in two separate intelligence-based operations (IBOs) in Balochistan’s Kachhi and Wadh districts, the military’s media wing said on Wednesday.&lt;/p&gt; &lt;p&gt;In a statement, the Inter-Services Public Relations (ISPR) said that on October 26, security forces conducted IBOs in the districts on the reported presence of terrorists belonging to &lt;em&gt;Fitna al-Hindustan.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;The state has &lt;a href=\"https://www.dawn.com/news/1914525\"&gt;&lt;u&gt;designated&lt;/u&gt;&lt;/a&gt; Balochistan-based terrorist groups as ",
-    "publishedAt": "2026-10-28T09:44:13.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.272Z",
-    "suggestedCategory": "Pakistan",
-    "safety": {
-      "level": "review",
-      "reasons": [
-        {
-          "id": "military-establishment",
-          "label": "Military / security establishment",
-          "level": "review",
-          "matched": [
-            "ispr",
-            "military"
-          ]
-        }
-      ]
-    },
-    "firstSeenAt": "2026-10-28T11:30:43.166Z"
-  },
-  {
-    "id": "43314cd9c666",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040407/us-costs-of-iran-war-rise-to-over-47bn-according-to-pentagon-estimate",
-    "headline": "US costs of Iran war rise to over $47bn, according to Pentagon estimate",
-    "description": "&lt;p&gt;The US military has spent over $47 billion so far to prosecute the &lt;a href=\"https://www.dawn.com/news/1976395/iran-says-trumps-remarks-on-islamabad-mou-expose-hollowness-of-us-diplomacy\"&gt;war in Iran&lt;/a&gt;, more than 25 per cent higher than the Defense Department’s estimate in July, according to Pentagon data obtained by &lt;em&gt;Reuters&lt;/em&gt;.&lt;/p&gt; &lt;p&gt;The Pentagon did not immediately respond to a request for comment on its estimate, which has not been shared publicly.&lt;/p&gt; &lt;p&gt;The disclosure about the rising cost of the Iran war comes as Republican",
-    "publishedAt": "2026-10-28T10:28:45.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.272Z",
-    "suggestedCategory": "World",
-    "safety": {
-      "level": "review",
-      "reasons": [
-        {
-          "id": "military-establishment",
-          "label": "Military / security establishment",
-          "level": "review",
-          "matched": [
-            "military"
-          ]
-        }
-      ]
-    },
-    "firstSeenAt": "2026-10-28T11:30:43.169Z"
-  },
-  {
-    "id": "ea10b8bd5d33",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040419/lahore-again-ranks-worlds-most-polluted-major-city-as-smog-worsens",
-    "headline": "Lahore again ranks world’s most polluted major city as smog worsens",
-    "description": "&lt;p&gt;LAHORE: Lahore was ranked the world’s most polluted major city on Wednesday morning as smog thickened over the city with the onset of colder weather.&lt;/p&gt; &lt;p&gt;In the past few years, air pollution has become one of the most pressing public health and environmental crises facing Pakistan. Various &lt;a href=\"https://www.dawn.com/news/1871112/government-advises-precautions-as-air-quality-worsens-in-capital\"&gt;&lt;u&gt;cities&lt;/u&gt;&lt;/a&gt; of the country, most notably &lt;a href=\"https://www.dawn.com/news/1872733\"&gt;&lt;u&gt;Lahore&lt;/u&gt;&lt;/a&gt;, deal with smog, es",
-    "publishedAt": "2026-10-28T06:53:12.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.272Z",
-    "suggestedCategory": "Pakistan",
-    "firstSeenAt": "2026-10-28T11:30:43.169Z"
-  },
-  {
-    "id": "0be77a5b7e09",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040469/god-will-surely-provide-afghans-compete-for-jobs-homes-as-millions-return-from-neighbouring-countries",
-    "headline": "‘God will surely provide’: Afghans compete for jobs, homes as millions return from neighbouring countries",
-    "description": "&lt;p&gt;As labourers gathered at a roadside in northern Afghanistan, Ghulam Sakhi Barat joined the search for work, with millions of new arrivals intensifying pressure for jobs and homes.&lt;/p&gt; &lt;p&gt;More than six million Afghans have returned from &lt;a href=\"https://www.dawn.com/news/2030609\"&gt;Iran&lt;/a&gt; and &lt;a href=\"https://www.dawn.com/news/2040046\"&gt;Pakistan&lt;/a&gt; in little over three years as the neighbouring countries have launched &lt;a href=\"https://www.dawn.com/news/1949548\"&gt;deportation drives&lt;/a&gt; after decades hosting those fleeing conflict.&lt;/p&gt;",
-    "publishedAt": "2026-10-28T14:14:42.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.273Z",
-    "suggestedCategory": "World",
-    "firstSeenAt": "2026-10-29T03:35:45.273Z"
-  },
-  {
-    "id": "ce0d4201fbd6",
-    "sourceName": "Dawn News",
-    "sourceUrl": "https://www.dawn.com/news/2040424/pti-decides-to-contest-islamabad-local-bodies-elections-on-dec-20",
-    "headline": "PTI decides to contest Islamabad local bodies elections on Dec 20",
-    "description": "&lt;p&gt;ISLAMABAD: PTI has decided to contest the upcoming local government elections in the capital, with the party’s regional leadership directing district and town organisations to file nomination papers in every ward across all union councils between November 2 and 6, it emerged on Wednesday.&lt;/p&gt; &lt;p&gt;The Election Commission of Pakistan (ECP) has &lt;a href=\"https://www.dawn.com/news/2038935\"&gt;scheduled the polls&lt;/a&gt; for December 20.&lt;/p&gt; &lt;p&gt;On Wednesday, PTI’s Islamabad wing President Amir Mughal, speaking to &lt;em&gt;Dawn&lt;/em&gt;, said, “We have decided ",
-    "publishedAt": "2026-10-28T09:51:20.000Z",
-    "retrievedAt": "2026-10-29T03:35:45.274Z",
-    "suggestedCategory": "Pakistan",
-    "firstSeenAt": "2026-10-28T11:30:43.170Z"
   },
   {
     "id": "a5325f39ed1d",
@@ -458,7 +324,7 @@
     "headline": "Punjab by-polls: Notices served on minister, SAPM for 'violating' election code of conduct",
     "description": "This collage of pictures show Federal Minister of Power Sardar Awais Ahmad Khan Leghari and Special Assistant to the Prime Minister Huzaifa Rehman. —APP/NA website/FileShow-cause notices have been issued to Minister for Power Sardar Awais Ahmad Khan Leghari and Special Assistant to the Prime...",
     "publishedAt": "2025-11-21T01:33:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.977Z",
+    "retrievedAt": "2026-10-29T11:30:32.278Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-21/l_1381918_062710_updates.jpg",
     "imageAlt": "Punjab by-polls: Notices served on minister, SAPM for 'violating' election code of conduct",
@@ -472,7 +338,7 @@
     "headline": "27th Amendment empowers FCC to hear all constitutional cases: minister",
     "description": "Minister of State for Law and Justice Barrister Aqeel Malik addressing an event on December 21, 2024. — Facebook@BarristerAqeelMalikState Minister for Law Aqeel Malik said on Thursday that the 27th Amendment has vested authority to hear constitutional matters in the Federal Constitutional Court...",
     "publishedAt": "2025-11-20T19:59:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.278Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-21/l_1381786_010142_updates.jpg",
     "imageAlt": "27th Amendment empowers FCC to hear all constitutional cases: minister",
@@ -499,7 +365,7 @@
     "headline": "JF-17 attracts strong attention at Dubai Airshow as friendly country inks procurement MoU",
     "description": "Pakistan Air Force JF-17 Thunder fighter jet during World Defence Air Show 2024 held in Riyadh, Saudi Arabia, February 7, 2024. &mdash; PPI Pakistan's JF-17 Thunder garnered significant attention at the Dubai Airshow 2025, leading to the signing of a memorandum of understanding with a...",
     "publishedAt": "2025-11-20T17:25:16.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.278Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-20/l_1381731_103041_updates.jpg",
     "imageAlt": "JF-17 attracts strong attention at Dubai Airshow as friendly country inks procurement MoU",
@@ -513,7 +379,7 @@
     "headline": "US lawmakers laud Punjab govt's initiative to modernise brick-kiln",
     "description": "Punjab Chief Minister Maryam Nawaz attends ceremony in this undated image. &mdash; Facebook/@MaryamNSharifISLAMABAD: The Congressional Pakistan Caucus has applauded Punjab&rsquo;s drive to modernise its brick-kiln sector, saying the reforms could serve as a pilot for eliminating bonded labour and...",
     "publishedAt": "2025-11-20T16:39:48.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.278Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-20/l_1381705_094430_updates.jpg",
     "imageAlt": "US lawmakers laud Punjab govt's initiative to modernise brick-kiln",
@@ -527,7 +393,7 @@
     "headline": "Security forces gun down 30 terrorists in multiple IBOs in KP: ISPR",
     "description": "Frontier Constabulary and army personnel gather stand guard in Kurram, January 17, 2025. — AFPSecurity forces killed 30 Indian proxy Fitna al-Khawarij terrorists during multiple intelligence-based operations carried out by security forces in Khyber Pakhtunkhwa , the military's media wing said...",
     "publishedAt": "2025-11-20T16:38:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-20/l_1381698_085702_updates.jpg",
     "imageAlt": "Security forces gun down 30 terrorists in multiple IBOs in KP: ISPR",
@@ -555,7 +421,7 @@
     "headline": "MQM-P calls for new province in Sindh",
     "description": "Muttahida Qaumi Movement-Pakistan Convener Khalid Maqbool Siddiqui addresses a press conference in Karachi, November 20, 2025. — Screengrab via YouTube/Geo NewsKARACHI: With discussions on the 28th Amendment gaining momentum, the Muttahida Qaumi Movement–Pakistan has once again pressed its...",
     "publishedAt": "2025-11-20T15:56:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-20/l_1381701_085826_updates.jpg",
     "imageAlt": "MQM-P calls for new province in Sindh",
@@ -569,7 +435,7 @@
     "headline": "US report validates Pakistan military edge over India: PM",
     "description": "Prime Minister Shehbaz Sharif addresses ceremony in Azad Jammu and Kashmir on November 20, 2025. — X/@GovtofPakistanPrime Minister Shehbaz Sharif on Thursday said a recent US report endorsing Pakistan’s downing of Indian aircraft stands as formal validation of the country’s military...",
     "publishedAt": "2025-11-20T15:55:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-20/l_1381699_085648_updates.jpg",
     "imageAlt": "US report validates Pakistan military edge over India: PM",
@@ -612,7 +478,7 @@
     "headline": "Banned TTP poses serious threat to Pakistan security: UNSC panel",
     "description": "Denmark’s Deputy Permanent Representative to United Nations and chair of UNSC's ISIL, Al-Qaeda Sanctions Committee Sandra Jensen Landi. — Screengrab via UN WebTV websiteThe chair of the United Nations Security Council's Daesh and Al-Qaeda Sanctions Committee has cautioned that the banned...",
     "publishedAt": "2025-11-20T10:24:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-20/l_1359210_023849_updates.jpg",
     "imageAlt": "Banned TTP poses serious threat to Pakistan security: UNSC panel",
@@ -639,7 +505,7 @@
     "headline": "CM Afridi clarifies remarks on by-poll after ECP requests army deployment",
     "description": "Khyber Pakhtunkhwa Chief Minister Sohail Khan Afridi addresses a gathering at Havelian, Abbottabad on November 19, 2025. — Facbook@ImMuhammadSohailAfridiISLAMABAD: Khyber Pakhtunkhwa Chief Minister Sohail Afridi on Thursday issued a clarification concerning his remarks on the NA-18 by-poll,...",
     "publishedAt": "2025-11-20T10:01:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-20/l_1359222_025433_updates.jpg",
     "imageAlt": "CM Afridi clarifies remarks on by-poll after ECP requests army deployment",
@@ -653,7 +519,7 @@
     "headline": "Dubai sees 3.2m Pakistani passengers in 2025 as airport sets new milestone",
     "description": "People sit at a coffee shop as they wait for their flight at the Dubai International Airport, in Dubai, United Arab Emirates, April 17, 2024. — ReutersDUBAI: Dubai International Airport handled 3.2 million passengers travelling from Pakistan in the first nine months of 2025, making the country...",
     "publishedAt": "2025-11-20T06:16:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-20/l_1359184_105548_updates.jpg",
     "imageAlt": "Dubai sees 3.2m Pakistani passengers in 2025 as airport sets new milestone",
@@ -667,7 +533,7 @@
     "headline": "Security forces kill 23 Indian proxy terrorists in KP's Kurram",
     "description": "Security forces are seen taking position during an operation. — ISPR/FileRAWALPINDI: Amid country's ongoing fight against the menace of terrorism, security forces have neutralised 23 Indian proxy Fitna al-Khawarij terrorists in separate engagements in Khyber Pakhtunkhwa's Kurram district, the...",
     "publishedAt": "2025-11-20T05:08:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-20/l_1359185_100637_updates.jpg",
     "imageAlt": "Security forces kill 23 Indian proxy terrorists in KP's Kurram",
@@ -694,7 +560,7 @@
     "headline": "Pakistan to construct island to boost oil exploration: report",
     "description": "Pump jacks operate in front of a drilling rig in an oil field in Midland, Texas United States. — Reuters/FilePakistan's state-owned energy company, Pakistan Petroleum Limited , has announced plans for an artificial island to boost its oil exploration efforts.Islamabad has intensified its...",
     "publishedAt": "2025-11-19T18:26:12.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1359101_113531_updates.jpg",
     "imageAlt": "Pakistan to construct island to boost oil exploration: report",
@@ -708,7 +574,7 @@
     "headline": "Russia ready to mediate Pakistan's issues with India, Afghanistan: envoy",
     "description": "Russia's ambassador to Pakistan has extended his country's offer to mediate Islamabad's conflicts with India and Afghanistan, amid strained relations with its neighbouring countries.Islamabad's relations with India have remained tense since the four-day war in May, while the Afghan Taliban regime...",
     "publishedAt": "2025-11-19T18:14:28.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1359098_112008_updates.jpg",
     "imageAlt": "Russia ready to mediate Pakistan's issues with India, Afghanistan: envoy",
@@ -722,7 +588,7 @@
     "headline": "Security forces neutralise four terrorists in KP IBOs",
     "description": "Soldiers ride on a Pakistan Army vehicle in this undated image. — AFP/FileFour terrorists affiliated with Indian proxy, Fitna al-Khawarij, were killed in a series of operations across Khyber Pakhtunkhwa from November 17 to 18, the Inter-Services Public Relations said on Wednesday.An...",
     "publishedAt": "2025-11-19T17:12:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1359092_101203_updates.jpg",
     "imageAlt": "Security forces neutralise four terrorists in KP IBOs",
@@ -749,7 +615,7 @@
     "headline": "Reclassification of 41 candidates on reserved seats goes beyond SC mandate: Justice Mandokhail",
     "description": "Supreme Court's Justice Jamal Khan Mandokhail addresses an event related to Labour Day in Islamabad on May 1, 2025. — Screengrab/YouTube/Geo NewsISLAMABAD: Justice Jamal Khan Mandokhail has released a detailed dissent in the reserved seats case, stating that the ruling on 41 candidates...",
     "publishedAt": "2025-11-19T16:38:12.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1359090_094530_updates.jpg",
     "imageAlt": "Reclassification of 41 candidates on reserved seats goes beyond SC mandate: Justice Mandokhail",
@@ -776,7 +642,7 @@
     "headline": "Pakistan Navy confiscates drugs worth $130m in Arabian Sea",
     "description": "Pakistan Navy scores a massive drug bust worth $130 in Arabian Sea &mdash; Pakistan Navy Directorate General Public RelationsThe Pakistan Navy has scored a significant victory in countering drug trafficking, seizing methamphetamine worth $130 million during an operation in the Arabian...",
     "publishedAt": "2025-11-19T13:51:56.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1359051_065814_updates.jpg",
     "imageAlt": "Pakistan Navy confiscates drugs worth $130m in Arabian Sea",
@@ -790,7 +656,7 @@
     "headline": "In meeting with EU Council president, Dar discuss economic ties, GSP+",
     "description": "Deputy Prime Minister and Foreign Minister Ishaq Dar meets European Union Council President Antonio Costa in Brussels, Belgium, November 19, 2025. — X/@ForeignOfficePK Pakistan and the European Union on Wednesday discussed the GSP+ scheme, trade expansion and broader economic cooperation during...",
     "publishedAt": "2025-11-19T12:55:25.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "Business",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1359033_104134_updates.jpg",
     "imageAlt": "In meeting with EU Council president, Dar discuss economic ties, GSP+",
@@ -804,7 +670,7 @@
     "headline": "Pakistan achieved 'military success over India' in May war: US report",
     "description": "A Pakistan Air Force J-10C fighter jet in this undated photo. &mdash; X/@DGPR_PAFPakistan achieved \"military success over India\" during the May conflict, according to a report submitted to the United States Congress, which also acknowledged that Islamabad downed Indian jets, including French-made...",
     "publishedAt": "2025-11-19T12:12:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.279Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1359013_045754_updates.jpg",
     "imageAlt": "Pakistan achieved 'military success over India' in May war: US report",
@@ -831,7 +697,7 @@
     "headline": "PM Shehbaz approves five-year plan for flood preparedness",
     "description": "PM Shehbaz Sharif chairs a meeting regarding climate change induced losses and mitigation plan for the next year's monsoon, Islamabad, November 19, 2025. — PIDPrime Minister Shehbaz Sharif has endorsed a comprehensive five-year strategy — fix, expand and rebuild the country's flood management...",
     "publishedAt": "2025-11-19T11:27:23.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.280Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1359012_044031_updates.jpg",
     "imageAlt": "PM Shehbaz approves five-year plan for flood preparedness",
@@ -858,7 +724,7 @@
     "headline": "JITs to probe cases against TLP in Punjab",
     "description": "Trucks and containers block Ravi Bridge as supporters of Tehreek-e-Labbaik Pakistan supporters march in Lahore, October 10, 2025. — Reuters LAHORE: Amid ongoing crackdown against the proscribed Tehreek-e-Labbaik Pakistan , the Punjab government has formed 12 joint investigation teams to probe...",
     "publishedAt": "2025-11-19T10:44:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.978Z",
+    "retrievedAt": "2026-10-29T11:30:32.280Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1358987_032703_updates.jpg",
     "imageAlt": "JITs to probe cases against TLP in Punjab",
@@ -872,7 +738,7 @@
     "headline": "DPM Dar pushes connectivity, financial tools at SCO summit",
     "description": "Deputy Prime Minister and Foreign Minister at the margins of the SCO Heads of Government meetings, with Russian Prime Minister Mikhail Mishustin and Chinese Premier Li Qiang. &mdash; X/@ForeignOfficePkDeputy Prime Minister and Foreign Minister Senator Ishaq Dar used the 24th Shanghai Cooperation...",
     "publishedAt": "2025-11-19T10:38:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.280Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1358973_025817_updates.jpg",
     "imageAlt": "DPM Dar pushes connectivity, financial tools at SCO summit",
@@ -886,7 +752,7 @@
     "headline": "Karachi hotel receives traffic fine for car stolen in 1997",
     "description": "Traffic police officials charge a challan for violating the traffic rules at Saddar area in Karachi. — PPIKarachi's newly introduced automated traffic enforcement system — the Traffic Regulation and Citation System — has stirred controversy after a five-star hotel was issued a Rs 10,000...",
     "publishedAt": "2025-11-19T05:13:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.280Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1358923_095746_updates.jpg",
     "imageAlt": "Karachi hotel receives traffic fine for car stolen in 1997",
@@ -900,7 +766,7 @@
     "headline": "CTD, police kill two suspected militants in Sarai Naurang operation",
     "description": "Police officers take position during a counter terrorism training session at the Elite Police Training Centre in Nowshera, Pakistan, February 10, 2023.— ReutersPESHAWAR: Two suspected militants were killed late Wednesday in a joint operation by the Counter Terrorism Department and local police...",
     "publishedAt": "2025-11-19T02:47:13.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.280Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1358918_062532_updates.jpg",
     "imageAlt": "CTD, police kill two suspected militants in Sarai Naurang operation",
@@ -914,7 +780,7 @@
     "headline": "Trump claims credit for averting Pak-India 'war that was almost ready to start again'",
     "description": "A collage of PM Shehbaz Sharif, US President Donald Trump and Indian PM Narendra Modi — X@PakPMO/Reuters/FileUS President Donald Trump on Wednesday claimed that he had actually stopped eight battles, including a war from “restarting” between nuclear-armed neighbours, Pakistan and...",
     "publishedAt": "2025-11-19T00:13:20.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.280Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1358877_091504_updates.jpg",
     "imageAlt": "Trump claims credit for averting Pak-India 'war that was almost ready to start again'",
@@ -949,7 +815,7 @@
     "headline": "Imran Khan's sisters released after brief detention in Rawalpindi",
     "description": "Imran Khan’s sisters along with PTI activists stage a sit-in near the near Central Jail Rawalpindi on November 19, 2025. — X/@javerias RAWALPINDI: Pakistan Tehreek-e-Insaf founder Imran Khan’s sisters — Aleema Khan, Noreen Khan Niazi and Uzma Khanum — were taken into custody after...",
     "publishedAt": "2025-11-18T22:12:47.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.280Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-19/l_1358865_032128_updates.jpg",
     "imageAlt": "Imran Khan's sisters released after brief detention in Rawalpindi",
@@ -976,7 +842,7 @@
     "headline": "Army eliminates 23 Indian-backed terrorists in KP IBOs",
     "description": "Pakistani soldiers stand guard in Bannu, Khyber-Pakhtunkhwa July 2, 2014. — ReutersSecurity forces killed at least 23 terrorists linked to Indian proxy Fitna al-Khawarij in two intelligence-based operations in Khyber Pakhtunkhwa, the Inter-Services Public Relations said on Tuesday.According to...",
     "publishedAt": "2025-11-18T17:02:28.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.280Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-18/l_1358824_100500_updates.jpg",
     "imageAlt": "Army eliminates 23 Indian-backed terrorists in KP IBOs",
@@ -990,7 +856,7 @@
     "headline": "Key constitutional bodies reconstituted under 27th Amendment",
     "description": "This collage shows Supreme Court judge Justice Jamal Khan Mandokhail and Federal Constitutional Court judge Justice Aamer Farooq. — SC and IHC websites/File ISLAMABAD: The Supreme Court on Tuesday announced the reconstitution of three key constitutional and statutory judicial bodies under the...",
     "publishedAt": "2025-11-18T13:56:31.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.280Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-18/l_1358791_065814_updates.jpg",
     "imageAlt": "Key constitutional bodies reconstituted under 27th Amendment",
@@ -1025,7 +891,7 @@
     "headline": "At SCO moot, Pakistan calls for stronger economic integration",
     "description": "Deputy Prime Minister and Foreign Minister Ishaq Dar speaks during 24th meeting of Shanghai Cooperation Organisation Council of Heads of Government in Moscow, Russia, November 18, 2025. — X/@ForeignOfficePKDeputy Prime Minister and Foreign Minister Ishaq Dar on Tuesday urged member states of the...",
     "publishedAt": "2025-11-18T12:25:31.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.281Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-18/l_1358767_053819_updates.jpg",
     "imageAlt": "At SCO moot, Pakistan calls for stronger economic integration",
@@ -1039,7 +905,7 @@
     "headline": "Opposition alliance holds protest rally against 27th Constitutional Amendment",
     "description": "TTAP leaders and other politicians protest against 27th Constitutional Amendment outside Supreme Court in Islamabad on November 18, 2025. &mdash; X@AsadQaiserPTIISLAMABAD: The Tehreek Tahaffuz-e-Ayeen-Pakistan on Tuesday held a protest rally against the 27th Constitutional Amendment, marching...",
     "publishedAt": "2025-11-18T10:33:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.281Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-18/l_1358724_031058_updates.jpg",
     "imageAlt": "Opposition alliance holds protest rally against 27th Constitutional Amendment",
@@ -1074,7 +940,7 @@
     "headline": "Body of 18-year-old bride found on rooftop in Karachi's DHA",
     "description": "A crime scene tape can be seen in this image. — Reuters/FileKARACHI: Police are investigating the death of an 18-year-old newly married woman, Zainab, whose body was found hanging on the roof of a residential building in Karachi in the night between November 17 and 18, and have registered a...",
     "publishedAt": "2025-11-18T09:30:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.281Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-18/l_1358706_014127_updates.jpg",
     "imageAlt": "Body of 18-year-old bride found on rooftop in Karachi's DHA",
@@ -1088,7 +954,7 @@
     "headline": "Raja Faisal Rathore sworn in as new AJK prime minister",
     "description": "Raja Faisal Rathore taking oath as new AJK PM on November 18, 2025. — ReporterPakistan Peoples Party’s Raja Faisal Rathore took oath as Azad Jammu and Kashmir’s new prime minister on Tuesday, a day after winning the assembly vote that unseated Anwarul Haq.Rathore was administered the oath...",
     "publishedAt": "2025-11-18T08:11:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-18/l_1358671_014544_updates.jpg",
     "imageAlt": "Raja Faisal Rathore sworn in as new AJK prime minister",
@@ -1115,7 +981,7 @@
     "headline": "ECP moves to prepare schedule for Islamabad local polls",
     "description": "Representational image of a woman casting her vote. — AFP/FileISLAMABAD: The Election Commission of Pakistan on Monday decided to hold long-delayed local government elections in Islamabad and ordered officials to draft the poll schedule.In a reserved decision on the long-standing matter, the...",
     "publishedAt": "2025-11-17T20:06:16.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-18/l_1358588_010952_updates.jpg",
     "imageAlt": "ECP moves to prepare schedule for Islamabad local polls",
@@ -1129,7 +995,7 @@
     "headline": "28th Amendment on the cards, says Rana Sanaullah",
     "description": "Prime Minister’s Advisor on Political Affairs Rana Sanaullah chairs meeting in Islamabad on October 8, 2024. — APPAdviser to Prime Minister on Political and Public Affairs Rana Sanaullah on Monday said the government is finalising the 28th Constitutional Amendment, noting that the draft would...",
     "publishedAt": "2025-11-17T18:06:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358570_110808_updates.jpg",
     "imageAlt": "28th Amendment on the cards, says Rana Sanaullah",
@@ -1156,7 +1022,7 @@
     "headline": "Railways' modernisation to play key role in boosting economy: PM",
     "description": "PM Shehbaz Sharif addresses inauguration ceremony of new Shalimar Express and the newly upgraded waiting rooms, CIP lounges at Karachi Cantt Railway Station. &mdash; X/@GovtofPakistanPrime Minister Shehbaz Sharif said on Monday that digitising and modernising Pakistan Railways, along with...",
     "publishedAt": "2025-11-17T16:54:01.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358560_095457_updates.jpg",
     "imageAlt": "Railways' modernisation to play key role in boosting economy: PM",
@@ -1183,7 +1049,7 @@
     "headline": "Govt extends Hajj 2026 dues deadline by three days",
     "description": "Muslim pilgrims circle the Kaaba and pray at the Grand mosque in the holy city of Makkah.— ReutersMinistry of Religion Affairs and Interfaith Harmony on Monday announced a three-day extension in the deadline for submission of Hajj 2026 dues, describing it as a final opportunity for applicants...",
     "publishedAt": "2025-11-17T15:08:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358540_073551_updates.jpg",
     "imageAlt": "Govt extends Hajj 2026 dues deadline by three days",
@@ -1197,7 +1063,7 @@
     "headline": "Death toll climbs to 10 in Hyderabad firecracker factory blast",
     "description": "Rescue workers busy in search of the bodies and injured workers from the debris of a firecrackers factory, collapsed after a huge blast in Hyderabad on November 15, 2025. — OnlineThe death toll from the Hyderabad firecracker factory explosion climbed to 10 on Monday after another injured worker...",
     "publishedAt": "2025-11-17T14:33:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358537_072359_updates.jpg",
     "imageAlt": "Death toll climbs to 10 in Hyderabad firecracker factory blast",
@@ -1211,7 +1077,7 @@
     "headline": "PPP's Palwasha Khan declares FIA, NCCIA 'corrupt'",
     "description": "Pakistan Peoples Party Senator Palwasha Khan. — Senate of Pakistan Website/FileISLAMABAD: PPP Senator Palwasha Khan on Monday accused the Federal Investigation Agency and National Cyber Crime Investigation Agency of being \"corrupt\", calling for all land allotment inquiries to be shifted to...",
     "publishedAt": "2025-11-17T14:08:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358535_070528_updates.jpg",
     "imageAlt": "PPP's Palwasha Khan declares FIA, NCCIA 'corrupt'",
@@ -1225,7 +1091,7 @@
     "headline": "By-polls announced for Senate seat left vacant after Irfan Siddiqui's death",
     "description": "PML-N leader Irfan Siddiqui addressing an event at the Arts Council of Pakistan in Karachi on December 29, 2022. —Arts Council of Pakistan Karachi websiteThe Election Commission of Pakistan on Monday issued the schedule for the by-election to the Senate seat vacated after the passing of...",
     "publishedAt": "2025-11-17T13:36:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358514_062425_updates.jpg",
     "imageAlt": "By-polls announced for Senate seat left vacant after Irfan Siddiqui's death",
@@ -1239,7 +1105,7 @@
     "headline": "Pakistan dismisses Khalilzad's claim about Daesh-K presence in Punjab",
     "description": "Former US envoy for peace in Afghanistan Zalmay Khalilzad speaks during a debate at Tolo TV channel in Kabul, Afghanistan April 28, 2019. — ReutersThe Ministry of Information and Broadcasting on Monday rejected Zalmay Khalilzad's misleading remarks about the killing of a Daesh-Khorasan commander...",
     "publishedAt": "2025-11-17T13:25:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358520_055948_updates.jpg",
     "imageAlt": "Pakistan dismisses Khalilzad's claim about Daesh-K presence in Punjab",
@@ -1253,7 +1119,7 @@
     "headline": "Tarar vows action over fake video targeting journalist Benazir Shah",
     "description": "Federal Minister for Information &amp; Broadcasting Attaullah Tarar addresses a press conference in Islamabad on July 15, 2024. &mdash; Screengrab via Geo NewsFederal Information Minister Atta Tarar has taken notice of the spread of a &ldquo;fake&rdquo; video aimed at journalist Benazir Shah,...",
     "publishedAt": "2025-11-17T11:12:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358473_025750_updates.jpg",
     "imageAlt": "Tarar vows action over fake video targeting journalist Benazir Shah",
@@ -1267,7 +1133,7 @@
     "headline": "AJK Assembly removes PM Anwarul Haq as no-confidence motion passes",
     "description": "AJK Prime Minister-elect Raja Faisal Rathore and Ex-AJK PM Chaudhry Anwarul Haq. &mdash; APPThe Azad Jammu and Kashmir Legislative Assembly has successfully passed a no-confidence motion against Prime Minister Chaudhry Anwarul Haq, replacing him with Raja Faisal Rathore.The no-confidence motion...",
     "publishedAt": "2025-11-17T11:07:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358488_053010_updates.jpg",
     "imageAlt": "AJK Assembly removes PM Anwarul Haq as no-confidence motion passes",
@@ -1302,7 +1168,7 @@
     "headline": "PTI's Gohar joins others in condemning harassment of journalist Shahzeb Khanzada",
     "description": "A screengrab showing anchorperson Shahzeb Khanzada being harassed by a man during shopping in a foreign country. &mdash; X@WabbasiPakistan Tehreek-e-Insaf Chairman Barrister Gohar Ali Khan, along with other political leaders and journalists, has categorically condemned the harassment of...",
     "publishedAt": "2025-11-17T11:06:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358468_025715_updates.jpg",
     "imageAlt": "PTI's Gohar joins others in condemning harassment of journalist Shahzeb Khanzada",
@@ -1316,7 +1182,7 @@
     "headline": "DPM Dar reaches Moscow to participate in SCO summit",
     "description": "Deputy Prime Minister and Foreign Minister Ishaq Dar arrives in Moscow, Russia, November 17, 2025. &mdash; X/@ForeignOfficePkISLAMABAD: Deputy Prime Minister and Foreign Minister Ishaq Dar reached Moscow on Monday to participate in the Shanghai Cooperation Organisation Council of Heads of...",
     "publishedAt": "2025-11-17T09:32:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358447_105110_updates.jpg",
     "imageAlt": "DPM Dar reaches Moscow to participate in SCO summit",
@@ -1330,7 +1196,7 @@
     "headline": "FCC begins hearing cases after two more judges sworn in",
     "description": "FCC Chief Justice Aminuddin Khan administers the oath to Justice Rozi Khan Barrech and Justice Arshad Hussain Shah . — Geo NewsISLAMABAD: Marking a new chapter in the country's constitutional and judicial history, the Federal Constitutional Court on Monday became operational after two more...",
     "publishedAt": "2025-11-17T06:48:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-17/l_1358441_111953_updates.jpg",
     "imageAlt": "FCC begins hearing cases after two more judges sworn in",
@@ -1357,7 +1223,7 @@
     "headline": "Pakistan seeks to boost military collaboration with Jordan, says COAS Munir",
     "description": "Jordan King Abdullah , COAS Field Marshal Syed Asim Munir , and PM Shehbaz Sharif during visit to Tilla Field Firing Ranges. — ISPRRAWALPINDI: Jordanian King Abdullah II on Sunday lauded Pakistans military, noting its exceptional training, professionalism, and strong operational preparedness.He...",
     "publishedAt": "2025-11-16T16:48:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-16/l_1358319_093032_updates.jpg",
     "imageAlt": "Pakistan seeks to boost military collaboration with Jordan, says COAS Munir",
@@ -1393,7 +1259,7 @@
     "headline": "Parliament holds exclusive right to amend Constitution: minister",
     "description": "Minister of State for Interior Talal Chaudhry addresses the press conference in Faisalabad on November 16, 2025. &mdash; Screengrab via Geo NewsMinister of State for Interior Talal Chaudhry on Sunday defended the federal government, saying only Parliament holds the exclusive right to amend the...",
     "publishedAt": "2025-11-16T14:06:07.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "World",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-16/l_1358303_070846_updates.jpg",
     "imageAlt": "Parliament holds exclusive right to amend Constitution: minister",
@@ -1407,7 +1273,7 @@
     "headline": "President honours Jordan's king with Nishan-e-Pakistan for global peace efforts",
     "description": "President Asif Ali Zardari and Jordan's King Abdullah II ibn Al Hussein shake hands during a special investiture ceremony at the President House, Islamabad, November 16, 2025. &mdash; PIDPresident Asif Ali Zardari awarded the Nishan-e-Pakistan, Pakistan's highest civilian award, to Jordan's King...",
     "publishedAt": "2025-11-16T12:46:50.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.979Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-16/l_1358281_065812_updates.jpg",
     "imageAlt": "President honours Jordan's king with Nishan-e-Pakistan for global peace efforts",
@@ -1434,7 +1300,7 @@
     "headline": "Karachi braces for water shortfall after Dhabeji power breakdown",
     "description": "This file photo shows Dhabeji pumping station. — Facebook/@KWSCOFFICIALTHATTA: A fresh power breakdown hit the Dhabeji pumping station on Sunday morning, halting operations in the second phase and disrupting a key supply line, the Karachi Water & Sewerage Corporation said.Karachi may face a...",
     "publishedAt": "2025-11-16T12:07:05.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.980Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-16/l_1358266_052104_updates.jpg",
     "imageAlt": "Karachi braces for water shortfall after Dhabeji power breakdown",
@@ -1448,7 +1314,7 @@
     "headline": "Field Marshal Munir warns of Pakistan's 'firm response' to any aggression",
     "description": "Field Marshal Syed Asim Munir addresses NDU's graduating officers of the National Security and War Course at NDU on July 7, 2025. &mdash; ISPRChief of Army Staff Field Marshal Syed Asim Munir on Sunday vowed that Pakistan would respond swiftly to any act of aggression against its sovereignty.He,...",
     "publishedAt": "2025-11-16T11:42:42.000Z",
-    "retrievedAt": "2026-10-29T03:35:46.980Z",
+    "retrievedAt": "2026-10-29T11:30:32.282Z",
     "suggestedCategory": "Pakistan",
     "imageUrl": "https://www.thenews.com.pk/assets/uploads/updates/2025-11-16/l_1358265_044721_updates.jpg",
     "imageAlt": "Field Marshal Munir warns of Pakistan's 'firm response' to any aggression",
@@ -1456,24 +1322,24 @@
     "firstSeenAt": "2026-10-28T03:32:24.733Z"
   },
   {
-    "id": "1ffa7a478da6",
+    "id": "59f9e3fc7f37",
     "sourceName": "Geo News",
-    "sourceUrl": "https://www.geo.tv/latest/688777-five-killed-more-than-27-injured-as-bus-plunges-into-drain-in-hafizabad",
-    "headline": "Five killed, more than 27 injured as bus plunges into drain in Hafizabad",
-    "description": "Rescue efforts are underway at the accident site near Fateh Jang where a bus overturned on December 30, 2024. &mdash; Screengrab via Geo NewsOver 27 injured passengers shifted to hospital, say Rescue 1122.Rescue officials say bus fell into drain near flyover in Hafizabad.Cause of crash...",
-    "publishedAt": "2026-10-29T02:33:30.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.630Z",
-    "suggestedCategory": "World",
-    "firstSeenAt": "2026-10-29T03:35:48.630Z"
+    "sourceUrl": "https://www.geo.tv/latest/688810-no-defence-pact-discussed-in-tehran-asif-hits-back-at-fazl",
+    "headline": "'No defence pact discussed in Tehran', Asif hits back at Fazl",
+    "description": "Defence Minister Khawaja Asif speaks during a National Assembly session on October 29, 2026. &mdash; Facebook/@NationalAssemblyOfPakistanCDF Munir helped stop a war and avert Yemen conflict risks: Asif.Minister urges global recognition of Pakistan&rsquo;s role in peace efforts.Political...",
+    "publishedAt": "2026-10-29T10:01:00.000Z",
+    "retrievedAt": "2026-10-29T11:30:33.835Z",
+    "suggestedCategory": "Pakistan",
+    "firstSeenAt": "2026-10-29T11:30:33.835Z"
   },
   {
     "id": "8e3299449f2c",
     "sourceName": "Geo News",
     "sourceUrl": "https://www.geo.tv/latest/688756-seven-killed-as-ambulance-catches-fire-after-oxygen-cylinder-blast-in-tharparkar",
-    "headline": "Pregnant woman among 8 killed in oxygen cylinder blast at Tharparkar health centre",
-    "description": "Ambulances are parked outside a mortuary following a deadly fire at the Pakistan Institute of Medical Sciences hospital in Islamabad, August 26, 2026. &mdash; Reuters Oxygen cylinder blast sets PPHI ambulance ablaze.AC confirms ambulance fire deaths at...",
+    "headline": "Pregnant woman among nine killed in oxygen cylinder blast at Tharparkar health centre",
+    "description": "Ambulances are parked outside a mortuary following a deadly fire at the Pakistan Institute of Medical Sciences hospital in Islamabad, August 26, 2026. &mdash; ReutersOxygen cylinder blast sets PPHI ambulance ablaze.AC confirms ambulance fire deaths at health facility.Injured shifted to...",
     "publishedAt": "2026-10-28T19:57:50.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.630Z",
+    "retrievedAt": "2026-10-29T11:30:33.835Z",
     "suggestedCategory": "Pakistan",
     "firstSeenAt": "2026-10-29T03:35:48.630Z"
   },
@@ -1484,7 +1350,7 @@
     "headline": "'Fabricated stories': Pakistan dismisses Afghan Taliban regime's claims over border incident",
     "description": "Pakistani soldiers keep vigil next to newly fenced border fencing along with Afghan's Paktika province border in Angoor Adda in South Waziristan district on October 18, 2017. &mdash; AFPInfo ministry says Taliban forces initiated unprovoked firing.Adds Pakistani forces destroyed seven...",
     "publishedAt": "2026-10-28T17:41:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.835Z",
     "suggestedCategory": "Pakistan",
     "firstSeenAt": "2026-10-29T03:35:48.631Z"
   },
@@ -1495,7 +1361,7 @@
     "headline": "Imran Khan's sister Noreen hospitalised after suffering heart discomfort in jail",
     "description": "Noreen Niazi, sister of Pakistan Tehreek-e-Insaf founder Imran Khan, is pictured during a sit-in near Adiala Jail, Rawalpindi. &mdash; APP/FileNoreen shifted from Kot Lakhpat jail.Initial medical tests being conducted. PTI founder&rsquo;s sister remains under detention.<p...",
     "publishedAt": "2026-10-28T16:25:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "Pakistan",
     "safety": {
       "level": "review",
@@ -1520,9 +1386,44 @@
     "headline": "PTI parliamentary party to push for rollback of emergency, governor's rule: Gohar",
     "description": "PTI Chairman Barrister Gohar Ali Khan speaks to reporters outside Parliament in Islamabad, on October 28, 2026. &mdash; Geo NewsJoint parliamentary party meeting lasts eight hours.Around 70 MNAs, senators attend meeting.Gohar says 28th Amendment was not discussed.<p...",
     "publishedAt": "2026-10-28T15:01:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "Pakistan",
     "firstSeenAt": "2026-10-29T03:35:48.631Z"
+  },
+  {
+    "id": "77f48d7fce52",
+    "sourceName": "Geo News",
+    "sourceUrl": "https://www.geo.tv/latest/688703-ecp-orders-kp-lg-polls-in-delimited-districts-excludes-12-under-ardc",
+    "headline": "ECP orders KP LG polls in delimited districts, excludes 12 under ARDC",
+    "description": "A woman casts her vote at a polling station during by-elections in Karachi on October 16, 2022. &mdash; PPIElection programme to be submitted for ECP approval.Polls excluded in five districts under October 11 order.Delimitation completed in 23 KP districts, ECP told. ISLAMABAD:...",
+    "publishedAt": "2026-10-28T14:04:00.000Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
+    "suggestedCategory": "Pakistan",
+    "firstSeenAt": "2026-10-29T11:30:33.836Z"
+  },
+  {
+    "id": "fe4394958238",
+    "sourceName": "Geo News",
+    "sourceUrl": "https://www.geo.tv/latest/688647-justice-mohsin-akhtar-kayani-resigns-as-lhc-judge",
+    "headline": "Justice Kayani resigns as LHC judge, cites 'executive's growing control' over judiciary",
+    "description": "Islamabad High Court's Justice Mohsin Akhtar Kayani. &mdash; IHC website/FileJustice Kayani raises concern over ordinary litigant's \"plight\".Conscience \"does not permit me to continue\": Justice Kayani.Justice Kayani announces plans to return to legal practice. LAHORE: Justice...",
+    "publishedAt": "2026-10-28T07:35:00.000Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
+    "suggestedCategory": "Pakistan",
+    "safety": {
+      "level": "review",
+      "reasons": [
+        {
+          "id": "judiciary",
+          "label": "Judiciary / courts in sensitive matters",
+          "level": "review",
+          "matched": [
+            "high court"
+          ]
+        }
+      ]
+    },
+    "firstSeenAt": "2026-10-29T11:30:33.836Z"
   },
   {
     "id": "23b026d3a371",
@@ -1531,7 +1432,7 @@
     "headline": "Centre plans $18bn investment for strategic water infrastructure over next decade",
     "description": "A view of the Neelum Jhelum Hydropower Plant, in Neelum Valley in Azad Jammu and Kashmir, May 1, 2025. &mdash; ReutersOngoing projects under PSDP likely to add 9.821 MAF of storage.Commission proposes body to bolster accountability in distribution.Notes sharp reduction in flood warning time...",
     "publishedAt": "2026-10-28T05:06:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "World",
     "safety": {
       "level": "review",
@@ -1555,7 +1456,7 @@
     "headline": "Karachi gunpoint harassment video prompts Sindh home minister to seek police report",
     "description": "Representational image of a person holding a gun. &mdash; AFP/File KARACHI: Sindh Home Minister Ziaul Hassan Lanjar has sought a report from the DIG South after a video purportedly showing men harassing and threatening citizens at gunpoint at various locations in Karachi's Defence Housing...",
     "publishedAt": "2026-10-27T23:50:05.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "Pakistan",
     "firstSeenAt": "2026-10-28T03:32:26.332Z"
   },
@@ -1566,7 +1467,7 @@
     "headline": "Pakistan strikes Afghan Taliban posts after deadly cross-border attack martyrs one, injures five",
     "description": "Smoke rises from the ruins of Afghan posts following Pakistani military strikes in retaliation for a cross-border attack. &mdash; Screengrab via YouTube/Geo NewsSecurity sources say military's response is continuing following attack.Pakistani troops prepared to counter further aggression...",
     "publishedAt": "2026-10-27T19:14:51.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "Pakistan",
     "safety": {
       "level": "review",
@@ -1598,7 +1499,7 @@
     "headline": "Govt has 'off-the-record' contacts with PTI, says PM's aide",
     "description": "Adviser to the Prime Minister on Political Affairs Rana Sanaullah speaks during an event. &mdash; Facebook/ RanaSanaUllahOfficial/File Contacts take place by phone, during parliamentary sessions.Sanaullah says formal talks could eventually resume.He also urges opposition leader to meet...",
     "publishedAt": "2026-10-27T17:55:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "World",
     "firstSeenAt": "2026-10-28T03:32:26.332Z"
   },
@@ -1609,7 +1510,7 @@
     "headline": "Karachi women thrash suspect accused of fleeing with their mobile phones",
     "description": "Women slap and beat a suspect with slippers during his court appearance over an alleged mobile phone snatching incident in Karachi. &mdash; Geo NewsSuspect allegedly lured women with job offers.Police recover several phones from his possession.Nearly 60 women were called to...",
     "publishedAt": "2026-10-27T17:51:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "Pakistan",
     "firstSeenAt": "2026-10-28T03:32:26.332Z"
   },
@@ -1620,7 +1521,7 @@
     "headline": "Govt working to end six-month higher electricity charges for crossing 200 units: minister",
     "description": "A representational image of pylons and power lines. &mdash; Reuters/FileAbid Sher Ali questions higher rates for 201-unit consumers.Around 20 million consumers use fewer than 200 units: minister.Leghari says govt considers raising threshold to 250 units. Federal Minister for...",
     "publishedAt": "2026-10-27T17:09:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "World",
     "firstSeenAt": "2026-10-28T03:32:26.332Z"
   },
@@ -1631,7 +1532,7 @@
     "headline": "Sindh Assembly has put 'full stop' to new province debate: Bilawal",
     "description": "PPP Chairman Bilawal Bhutto-Zardari interacts with the media at Spencer Eye Hospital in Karachi&rsquo;s Lyari on October 27. &mdash; X/MediaCellPPPBilawal denies consultations on 28th Amendment.Says Sindh&rsquo;s elected representatives have spoken.Urges Centre to focus...",
     "publishedAt": "2026-10-27T15:13:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "Pakistan",
     "safety": {
       "level": "review",
@@ -1655,7 +1556,7 @@
     "headline": "JI says Islamabad march will go ahead in mid-November after talks with PM",
     "description": "Jamaat-e-Islami Emir Hafiz Naeemur Rehman addresses a press conference following a meeting with Prime Minister Shehbaz Sharif in Islamabad on October 27, 2026. &mdash;YouTube/Geo News/screengrabJI chief says govt sought another 7-10 days to decide on levy.Naeem demands mechanism to...",
     "publishedAt": "2026-10-27T13:14:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "Pakistan",
     "safety": {
       "level": "review",
@@ -1679,7 +1580,7 @@
     "headline": "May 9 riots: PTI leader Hammad Azhar sent to prison on judicial remand",
     "description": "PTI leader and former federal minister Hammad Azhar addresses a press conference in this undated image. &mdash; PID/FileCourt remands Azhar to judicial custody for 14 days.PTI leader involved in multiple cases related to May 9 riots.Azhar served as PTI Punjab's president till August 2024.<p...",
     "publishedAt": "2026-10-27T12:11:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "Pakistan",
     "firstSeenAt": "2026-10-28T03:32:26.332Z"
   },
@@ -1690,58 +1591,23 @@
     "headline": "CM Maryam backs 'tit-for-tat' response to assault incidents in Punjab",
     "description": "Punjab Chief Minister Maryam Nawaz addressing a ceremony in Faisalabad, September 28, 2025. &mdash; Screengrab via YouTube/Geo NewsAdvised victims to respond to assault in kind: Punjab CM.CM Maryam says \"governing through fear\" not governance.Multan incident continued to haunt her, says CM...",
     "publishedAt": "2026-10-27T11:05:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
+    "retrievedAt": "2026-10-29T11:30:33.836Z",
     "suggestedCategory": "Pakistan",
     "firstSeenAt": "2026-10-27T11:27:38.686Z"
   },
   {
-    "id": "00d086d2a7ab",
-    "sourceName": "Geo News",
-    "sourceUrl": "https://www.geo.tv/latest/688497-pm-shehbaz-deposits-over-three-dozen-gifts-in-toshakhana-in-three-months",
-    "headline": "Govt makes public record of Toshakhana gifts received by PM Shehbaz, others",
-    "description": "This undated images shows Prime Minister Shehbaz Sharif. &mdash; APPShehbaz received over 36 gifts between July and September.Cabinet Division works out value of gifts deposited in Toshakhana.President Zardari deposits 7 gifts in Toshakhana during the period. Prime Minister...",
-    "publishedAt": "2026-10-27T08:19:11.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
-    "suggestedCategory": "World",
-    "safety": {
-      "level": "review",
-      "reasons": [
-        {
-          "id": "political-legal",
-          "label": "Politicians' legal matters / political crisis",
-          "level": "review",
-          "matched": [
-            "shehbaz sharif"
-          ]
-        }
-      ]
-    },
-    "firstSeenAt": "2026-10-27T11:27:38.686Z"
-  },
-  {
-    "id": "c611dfb549ac",
-    "sourceName": "Geo News",
-    "sourceUrl": "https://www.geo.tv/latest/688473-pakistan-urges-abolition-or-curbs-on-un-security-council-veto-power",
-    "headline": "'Institutional paralysis': Pakistan urges abolition or curbs on UNSC veto power",
-    "description": "Political coordinator in the Pakistan mission to the UN, Gul Qaiser Sarwani, speaks during a UNGA session, New York, US, October 27, 2026. &mdash; X/@PakistanUN_NYMisuse of veto undermines UN's credibility: Pakistani envoy.Envoy Sarwani says Pakistan against veto power expansion.Veto...",
-    "publishedAt": "2026-10-27T06:29:00.000Z",
-    "retrievedAt": "2026-10-29T03:35:48.631Z",
-    "suggestedCategory": "Pakistan",
-    "firstSeenAt": "2026-10-27T11:27:38.686Z"
-  },
-  {
-    "id": "708a7369e55a",
+    "id": "4db5a779bb6e",
     "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
-    "description": "Survivors of the train crash in Spain have spoken of their shock, panic and anger at the accident in Toledo province on Wednesday.",
-    "publishedAt": "2026-10-28T21:24:41.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
+    "description": "The recordings appear to show one high-speed train was given clearance to move even though another up ahead had stalled.",
+    "publishedAt": "2026-10-29T11:07:35.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.576Z",
     "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2148/live/b9f2de90-d31d-11f1-b441-2b33b063138f.jpg",
-    "imageAlt": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dc9/live/708f0da0-d34a-11f1-8a05-59afc813496d.jpg",
+    "imageAlt": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
     "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-29T03:35:50.323Z"
+    "firstSeenAt": "2026-10-29T11:30:35.576Z"
   },
   {
     "id": "12edba0c8e8b",
@@ -1750,7 +1616,7 @@
     "headline": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
     "description": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
     "publishedAt": "2026-10-29T01:14:01.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "retrievedAt": "2026-10-29T11:30:35.576Z",
     "suggestedCategory": "World",
     "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg",
     "imageAlt": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
@@ -1762,9 +1628,9 @@
     "sourceName": "BBC News — World",
     "sourceUrl": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&amp;at_campaign=rss",
     "headline": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-    "description": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
-    "publishedAt": "2026-10-28T20:24:39.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "description": "With 93% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+    "publishedAt": "2026-10-29T11:22:18.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
     "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3381/live/719a4410-d2f2-11f1-8d86-83eebc838351.jpg",
     "imageAlt": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
@@ -1772,46 +1638,32 @@
     "firstSeenAt": "2026-10-29T03:35:50.323Z"
   },
   {
-    "id": "8984db9c1ccc",
+    "id": "6e265c139051",
     "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "How could Israel break election deadlock? Here are four scenarios",
-    "description": "With 85% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
-    "publishedAt": "2026-10-28T14:30:31.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Carney to push for closer ties at Canada-EU summit in Montreal",
+    "description": "The term \"associate member\" is reportedly off the table as officials discuss deeper economic and defence ties.",
+    "publishedAt": "2026-10-29T09:51:06.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c6a/live/eef90440-d2d5-11f1-b677-b762d2f83f6e.jpg",
-    "imageAlt": "How could Israel break election deadlock? Here are four scenarios",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0304/live/98070ac0-d2e8-11f1-8d86-83eebc838351.jpg",
+    "imageAlt": "Carney to push for closer ties at Canada-EU summit in Montreal",
     "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-29T03:35:50.323Z"
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
   },
   {
-    "id": "c45fd5d421a1",
+    "id": "1d0361a3202e",
     "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "Girl seriously injured in wolf attack at German wildlife park",
-    "description": "The eight-year-old was in an enclosure with other children and a staff member when she was attacked.",
-    "publishedAt": "2026-10-28T22:08:52.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/c574pj3zljvjo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Building boom puts 300,000 people in the path of potential Himalayan disasters",
+    "description": "The construction of tourism facilities, housing, and infrastructure has surged in parts of Nepal and India's Uttarakhand.",
+    "publishedAt": "2026-10-28T23:11:59.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad45/live/27f788a0-d30f-11f1-ad4f-5d2bbacf0caf.jpg",
-    "imageAlt": "Girl seriously injured in wolf attack at German wildlife park",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fa1/live/e95162f0-cdf6-11f1-9a39-31b474234113.jpg",
+    "imageAlt": "Building boom puts 300,000 people in the path of potential Himalayan disasters",
     "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-29T03:35:50.323Z"
-  },
-  {
-    "id": "0a3b7a9a4d9c",
-    "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-    "description": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
-    "publishedAt": "2026-10-28T10:31:22.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
-    "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7eaf/live/69ded4d0-d26f-11f1-a4f1-4fff2e6cf5f3.jpg",
-    "imageAlt": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-    "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-28T11:30:48.154Z"
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
   },
   {
     "id": "22e2fc00027a",
@@ -1820,12 +1672,159 @@
     "headline": "Death of US actress Hayden Panettiere ruled accidental, ending local police probe",
     "description": "The Heroes and Nashville star died in August from the toxic effects of fentanyl, Xanax and several other drugs.",
     "publishedAt": "2026-10-28T21:16:30.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c143/live/4223ae30-d313-11f1-808a-1f9b061d2360.jpg",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85bb/live/bcdd9ca0-d384-11f1-b5f4-fd541fd21001.jpg",
     "imageAlt": "Death of US actress Hayden Panettiere ruled accidental, ending local police probe",
     "imageCredit": "BBC News — World",
     "firstSeenAt": "2026-10-29T03:35:50.323Z"
+  },
+  {
+    "id": "185d049c8b07",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Details of thousands of US immigration agents leaked in major hack",
+    "description": "A group called the Department of Peace released information on more than 41,000 DHS staff.",
+    "publishedAt": "2026-10-29T01:30:43.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c03/live/2996f1b0-d318-11f1-ba7d-b5eab6da6837.jpg",
+    "imageAlt": "Details of thousands of US immigration agents leaked in major hack",
+    "imageCredit": "BBC News — World",
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
+  },
+  {
+    "id": "7477c464e565",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+    "description": "The Russian President praised Musk and said they are in \"close\" contact.",
+    "publishedAt": "2026-10-28T19:15:58.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a4e/live/248d87d0-d2fd-11f1-8091-57f2713cabe8.jpg",
+    "imageAlt": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+    "imageCredit": "BBC News — World",
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
+  },
+  {
+    "id": "95eac67cb580",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
+    "description": "The troops are trying to recover four military personnel who went missing in an ambush on the outskirts of the Haitian capital Port-au-Prince.",
+    "publishedAt": "2026-10-29T06:24:56.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/846b/live/2e1cb430-d355-11f1-a772-cb496d11fa15.jpg",
+    "imageAlt": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
+    "imageCredit": "BBC News — World",
+    "safety": {
+      "level": "review",
+      "reasons": [
+        {
+          "id": "military-establishment",
+          "label": "Military / security establishment",
+          "level": "review",
+          "matched": [
+            "military"
+          ]
+        },
+        {
+          "id": "security-incidents",
+          "label": "Militancy / terrorism / insurgency",
+          "level": "review",
+          "matched": [
+            "ambush"
+          ]
+        }
+      ]
+    },
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
+  },
+  {
+    "id": "599112d588bd",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
+    "description": "The acquisition of the warplanes comes amid ongoing fighting in northern Tigray region that started last month.",
+    "publishedAt": "2026-10-29T08:23:31.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d18/live/3bba8dd0-d367-11f1-8799-171d5bd36a81.png",
+    "imageAlt": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
+    "imageCredit": "BBC News — World",
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
+  },
+  {
+    "id": "fd3d1af28d50",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cmx2qrgy591ro?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Audacious Indian jailbreak saga ends with 17 prisoners recaptured",
+    "description": "The jailbreak began with a fake seizure and ended 36 hours later with all the inmates back behind bars.",
+    "publishedAt": "2026-10-29T09:17:05.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e853/live/77bf7200-d36c-11f1-a2f1-9d8bc53db834.jpg",
+    "imageAlt": "Audacious Indian jailbreak saga ends with 17 prisoners recaptured",
+    "imageCredit": "BBC News — World",
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
+  },
+  {
+    "id": "1ceb85d5ea67",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cj1dw9znd1q1o?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "'Like cutting up a Picasso': AI microdrama edit of Neighbours worries actors and crew",
+    "description": "A micro-drama will use AI-assisted technology to edit old episodes of the Australian TV soap to focus on Margot Robbie's character.",
+    "publishedAt": "2026-10-29T03:15:35.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9486/live/12deed00-d350-11f1-b441-2b33b063138f.jpg",
+    "imageAlt": "'Like cutting up a Picasso': AI microdrama edit of Neighbours worries actors and crew",
+    "imageCredit": "BBC News — World",
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
+  },
+  {
+    "id": "c45fd5d421a1",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Girl seriously injured in wolf attack at German wildlife park",
+    "description": "The eight-year-old was in an enclosure with other children and a staff member when she was attacked.",
+    "publishedAt": "2026-10-28T22:08:52.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad45/live/27f788a0-d30f-11f1-ad4f-5d2bbacf0caf.jpg",
+    "imageAlt": "Girl seriously injured in wolf attack at German wildlife park",
+    "imageCredit": "BBC News — World",
+    "firstSeenAt": "2026-10-29T03:35:50.323Z"
+  },
+  {
+    "id": "a773a6cddba1",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+    "description": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
+    "publishedAt": "2026-10-29T07:54:33.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ae0/live/865a2400-d343-11f1-ad8b-790d6224b426.jpg",
+    "imageAlt": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+    "imageCredit": "BBC News — World",
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
+  },
+  {
+    "id": "0a3b7a9a4d9c",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+    "description": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
+    "publishedAt": "2026-10-28T10:31:22.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7eaf/live/69ded4d0-d26f-11f1-a4f1-4fff2e6cf5f3.jpg",
+    "imageAlt": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+    "imageCredit": "BBC News — World",
+    "firstSeenAt": "2026-10-28T11:30:48.154Z"
   },
   {
     "id": "d61f5588d8b9",
@@ -1834,7 +1833,7 @@
     "headline": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
     "description": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services.",
     "publishedAt": "2026-10-28T10:17:54.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
     "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8aa/live/94f66d00-d2b4-11f1-8cf0-c5d120932f9f.jpg",
     "imageAlt": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
@@ -1848,7 +1847,7 @@
     "headline": "Tanzania celebrates first natural gas discovery in more than 10 years",
     "description": "The energy minister described it as a \"major milestone\" for the East African nation.",
     "publishedAt": "2026-10-28T10:18:40.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
     "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a9d/live/58c194a0-d2ae-11f1-b441-2b33b063138f.png",
     "imageAlt": "Tanzania celebrates first natural gas discovery in more than 10 years",
@@ -1856,102 +1855,18 @@
     "firstSeenAt": "2026-10-29T03:35:50.323Z"
   },
   {
-    "id": "3b09b6a0b051",
+    "id": "58eea22c5623",
     "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/cmly073ql392o?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
-    "description": "No official reason has been given for postponing next month’s hearing to May 2027, the family says.",
-    "publishedAt": "2026-10-28T08:28:39.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "sourceUrl": "https://www.bbc.co.uk/news/videos/cm0rlxxpng5eo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "BBC in the Philippines where Thomas Markle is expected to be investigated",
+    "description": "Jonathan Head is in Cebu, reporting from outside the home where Markle last resided.",
+    "publishedAt": "2026-10-29T07:28:26.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d546/live/12047420-d2a3-11f1-9aa6-4f9b16403e50.png",
-    "imageAlt": "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/537d/live/42a87ce0-d387-11f1-a701-fddedf244c16.jpg",
+    "imageAlt": "BBC in the Philippines where Thomas Markle is expected to be investigated",
     "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-29T03:35:50.323Z"
-  },
-  {
-    "id": "1ca966fc3791",
-    "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "Ceasefire extended across Ukraine's Kherson region, officials say",
-    "description": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
-    "publishedAt": "2026-10-27T22:11:08.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
-    "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97b7/live/fc424bf0-d23c-11f1-904a-5b90e72e87ff.jpg",
-    "imageAlt": "Ceasefire extended across Ukraine's Kherson region, officials say",
-    "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-28T03:32:27.920Z"
-  },
-  {
-    "id": "2608c1c53a97",
-    "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/cmwyv8ld22z1o?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "King acknowledges 'suffering of the past' as Caribbean tour begins",
-    "description": "The King is on a nine-day tour that will take him to three countries, including the Bahamas, Guyana and Antigua and Barbuda.",
-    "publishedAt": "2026-10-28T04:32:36.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
-    "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0e4/live/7d77ba00-d249-11f1-8ba3-9fd3e261415f.jpg",
-    "imageAlt": "King acknowledges 'suffering of the past' as Caribbean tour begins",
-    "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-28T11:30:48.154Z"
-  },
-  {
-    "id": "dc67e20217ad",
-    "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/crwyq90gwg8jo?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "Dutch zookeeper dies after being mauled by leopard",
-    "description": "The woman began her career at the park when she was 17 and had worked there on-and-off for four decades.",
-    "publishedAt": "2026-10-27T19:30:37.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
-    "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d5f/live/cfa3dd20-d22d-11f1-b8e4-17c9744a7f8e.jpg",
-    "imageAlt": "Dutch zookeeper dies after being mauled by leopard",
-    "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-28T03:32:27.920Z"
-  },
-  {
-    "id": "5dedfcd59464",
-    "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "Norway and Finland leaders hold rare call with Putin",
-    "description": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said.",
-    "publishedAt": "2026-10-27T18:28:23.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
-    "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62a7/live/0a738c90-d1fa-11f1-8c9f-8d21fef6ffad.jpg",
-    "imageAlt": "Norway and Finland leaders hold rare call with Putin",
-    "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-28T03:32:27.919Z"
-  },
-  {
-    "id": "1227260c99e0",
-    "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
-    "description": "The Trump-Lula relationship may have thawed, but several issues could reignite tensions between the two leaders.",
-    "publishedAt": "2026-10-27T01:46:38.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
-    "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/05b2/live/06753110-d192-11f1-8c41-0bbbeafdc6d4.jpg",
-    "imageAlt": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
-    "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-27T11:27:40.267Z"
-  },
-  {
-    "id": "e44c0a25a403",
-    "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/c6e3xgq11jqlo?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "Ex-wife of Zimbabwe's vice-president freed after collapse of attempted murder case",
-    "description": "Marry Mubaiwa had been held on remand for seven years after being charged in 2019 for her then husband's attempted murder.",
-    "publishedAt": "2026-10-27T21:09:12.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
-    "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46a2/live/fff967e0-d239-11f1-904a-5b90e72e87ff.jpg",
-    "imageAlt": "Ex-wife of Zimbabwe's vice-president freed after collapse of attempted murder case",
-    "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-28T03:32:27.920Z"
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
   },
   {
     "id": "89a4c51721e5",
@@ -1960,7 +1875,7 @@
     "headline": "Watch: King dances in the streets of the Bahamas capital",
     "description": "The monarch is in the Bahamas as part of a tour of the Caribbean during which he addressed the \"great suffering of the past\".",
     "publishedAt": "2026-10-28T20:44:10.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
     "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15f2/live/2647c7b0-d30d-11f1-a701-fddedf244c16.jpg",
     "imageAlt": "Watch: King dances in the streets of the Bahamas capital",
@@ -1974,7 +1889,7 @@
     "headline": "Watch: At the scene of Spain's deadly train crash",
     "description": "People have been killed after a Spanish high-speed train collided with another train south of the capital Madrid, making this the country's worst disaster since 2013.",
     "publishedAt": "2026-10-28T16:45:16.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
     "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97cd/live/4f78dd50-d2e9-11f1-b441-2b33b063138f.jpg",
     "imageAlt": "Watch: At the scene of Spain's deadly train crash",
@@ -1988,7 +1903,7 @@
     "headline": "Israel's election result is messy - here's why",
     "description": "Despite having the highest voter turnout in nearly three decades, Israel's elections have had no clear winner. What does this mean for the country, asks the BBC's Yolande Knell.",
     "publishedAt": "2026-10-28T14:26:24.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
     "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8924/live/3d448ba0-d2d7-11f1-93e1-3b657b665bcf.jpg",
     "imageAlt": "Israel's election result is messy - here's why",
@@ -2002,7 +1917,7 @@
     "headline": "Myanmar diplomat breaks down as he urges world to 'end our suffering'",
     "description": "Kyaw Moe Tun - Myanmar's representative to the UN - makes an emotional appeal after saying the international community had failed the country's people.",
     "publishedAt": "2026-10-28T17:34:41.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
     "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de84/live/96c3b450-d2f3-11f1-a701-fddedf244c16.jpg",
     "imageAlt": "Myanmar diplomat breaks down as he urges world to 'end our suffering'",
@@ -2010,18 +1925,32 @@
     "firstSeenAt": "2026-10-29T03:35:50.323Z"
   },
   {
-    "id": "330b7ac557bb",
+    "id": "31905f2f4175",
     "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
-    "description": "The Russian-occupied city of Oleshky has had no electricity, gas or water for three years, as residents reported having to eat weeds to survive.",
-    "publishedAt": "2026-10-27T20:42:38.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cm2ke80nd929o?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Europe's youth take to the streets - they feel locked out of a promising future",
+    "description": "The last month has seen youth-driven demonstrations across Europe. What connects them?",
+    "publishedAt": "2026-10-29T00:33:11.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8774/live/b2b005e0-d246-11f1-b441-2b33b063138f.jpg",
-    "imageAlt": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/64cf/live/0f06e8c0-d2e9-11f1-b441-2b33b063138f.jpg",
+    "imageAlt": "Europe's youth take to the streets - they feel locked out of a promising future",
     "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-28T03:32:27.920Z"
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
+  },
+  {
+    "id": "873c8e4abdb1",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
+    "description": "Properties where someone has died in tragic circumstances can have big reductions in price.",
+    "publishedAt": "2026-10-29T09:30:03.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e19a/live/79bf7e60-d385-11f1-93e1-3b657b665bcf.jpg",
+    "imageAlt": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
+    "imageCredit": "BBC News — World",
+    "firstSeenAt": "2026-10-29T11:30:35.577Z"
   },
   {
     "id": "011bf1eaa3f3",
@@ -2030,10 +1959,24 @@
     "headline": "How did Flávio Bolsonaro end up in Miami?",
     "description": "BBC Verify has pieced together defeated presidential candidate Flávio Bolsonaro's journey through Brazil, Argentina and Ecuador to reach Miami.",
     "publishedAt": "2026-10-28T18:51:05.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9c9/live/0a0506e0-d2f8-11f1-a701-fddedf244c16.jpg",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c399/live/4861d5a0-d37d-11f1-93e1-3b657b665bcf.jpg",
     "imageAlt": "How did Flávio Bolsonaro end up in Miami?",
+    "imageCredit": "BBC News — World",
+    "firstSeenAt": "2026-10-29T03:35:50.323Z"
+  },
+  {
+    "id": "8984db9c1ccc",
+    "sourceName": "BBC News — World",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "How could Israel break election deadlock? Here are four scenarios",
+    "description": "With more than 90% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+    "publishedAt": "2026-10-29T09:06:48.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
+    "suggestedCategory": "World",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c6a/live/eef90440-d2d5-11f1-b677-b762d2f83f6e.jpg",
+    "imageAlt": "How could Israel break election deadlock? Here are four scenarios",
     "imageCredit": "BBC News — World",
     "firstSeenAt": "2026-10-29T03:35:50.323Z"
   },
@@ -2042,55 +1985,69 @@
     "sourceName": "BBC News — World",
     "sourceUrl": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&amp;at_campaign=rss",
     "headline": "What we know so far about deadly Spain train crash",
-    "description": "More than 500 passengers were on board the trains when the incident occurred in the province of Toledo, south of Madrid.",
-    "publishedAt": "2026-10-28T15:36:11.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "description": "More than 500 passengers were on board the trains when the crash occurred in the province of Toledo, south of Madrid.",
+    "publishedAt": "2026-10-29T10:02:37.000Z",
+    "retrievedAt": "2026-10-29T11:30:35.577Z",
     "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81f7/live/e4acc800-d302-11f1-a701-fddedf244c16.jpg",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe69/live/788ac890-d37d-11f1-b441-2b33b063138f.jpg",
     "imageAlt": "What we know so far about deadly Spain train crash",
     "imageCredit": "BBC News — World",
     "firstSeenAt": "2026-10-29T03:35:50.323Z"
   },
   {
-    "id": "1a297c537a59",
-    "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/cqz0ve94ygpjo?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "Israel's election deadlock is a sign of the country's deep divisions",
-    "description": "The election was a celebration of democracy in some ways - but it has left Israel with no clear path to a new government, writes James Landale.",
-    "publishedAt": "2026-10-28T20:53:02.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
+    "id": "04f264844718",
+    "sourceName": "BBC News — Business",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "Poundland's future hangs in the balance as chain edges towards collapse",
+    "description": "Poundland's bosses is filing a notice of intention to appoint administrators to the business.",
+    "publishedAt": "2026-10-29T11:19:10.000Z",
+    "retrievedAt": "2026-10-29T11:30:37.104Z",
     "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a31/live/8148c250-d311-11f1-a701-fddedf244c16.jpg",
-    "imageAlt": "Israel's election deadlock is a sign of the country's deep divisions",
-    "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-29T03:35:50.323Z"
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cd3d/live/2cdccc40-d378-11f1-bf63-739fb2907d03.jpg",
+    "imageAlt": "Poundland's future hangs in the balance as chain edges towards collapse",
+    "imageCredit": "BBC News — Business",
+    "firstSeenAt": "2026-10-29T11:30:37.104Z"
   },
   {
-    "id": "db656ca31c38",
-    "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/cr20wzwyzl1qo?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "China's families are now supporting more old people than kids",
-    "description": "The latest figures mark a major milestone as Beijing grapples with an ageing population.",
-    "publishedAt": "2026-10-27T23:16:08.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
-    "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39b9/live/b1569840-d105-11f1-8441-f1b8954c52d9.jpg",
-    "imageAlt": "China's families are now supporting more old people than kids",
-    "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-28T11:30:48.155Z"
+    "id": "c6bd586412ef",
+    "sourceName": "BBC News — Business",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
+    "description": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
+    "publishedAt": "2026-10-29T00:00:25.000Z",
+    "retrievedAt": "2026-10-29T11:30:37.104Z",
+    "suggestedCategory": "Business",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5570/live/b5261da0-d304-11f1-a9bf-3316693f55f0.jpg",
+    "imageAlt": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
+    "imageCredit": "BBC News — Business",
+    "firstSeenAt": "2026-10-29T11:30:37.104Z"
   },
   {
-    "id": "688dac17cf30",
-    "sourceName": "BBC News — World",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/c6gelgxjwzdzo?at_medium=RSS&amp;at_campaign=rss",
-    "headline": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
-    "description": "AI has made some awesome scientific discoveries. But now, questions are being raised about its accuracy",
-    "publishedAt": "2026-10-28T01:01:02.000Z",
-    "retrievedAt": "2026-10-29T03:35:50.323Z",
-    "suggestedCategory": "World",
-    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1f6/live/c49501d0-cdf4-11f1-a64c-550be9e3c66b.jpg",
-    "imageAlt": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
-    "imageCredit": "BBC News — World",
-    "firstSeenAt": "2026-10-28T11:30:48.155Z"
+    "id": "0d317f998b2e",
+    "sourceName": "BBC News — Business",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "What we now know about the UK economy in four charts",
+    "description": "The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.",
+    "publishedAt": "2026-10-28T20:08:45.000Z",
+    "retrievedAt": "2026-10-29T11:30:37.104Z",
+    "suggestedCategory": "Business",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/302d/live/da4a7910-d2ea-11f1-8d86-83eebc838351.jpg",
+    "imageAlt": "What we now know about the UK economy in four charts",
+    "imageCredit": "BBC News — Business",
+    "firstSeenAt": "2026-10-29T11:30:37.104Z"
+  },
+  {
+    "id": "aee37fe7157b",
+    "sourceName": "BBC News — Business",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/c60e05yn3w9zo?at_medium=RSS&amp;at_campaign=rss",
+    "headline": "What the Budget offers for under 25s - and what it leaves out",
+    "description": "The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.",
+    "publishedAt": "2026-10-28T20:02:38.000Z",
+    "retrievedAt": "2026-10-29T11:30:37.105Z",
+    "suggestedCategory": "Business",
+    "imageUrl": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f96e/live/0a45b830-d2de-11f1-93e1-3b657b665bcf.jpg",
+    "imageAlt": "What the Budget offers for under 25s - and what it leaves out",
+    "imageCredit": "BBC News — Business",
+    "firstSeenAt": "2026-10-29T11:30:37.105Z"
   }
 ]
