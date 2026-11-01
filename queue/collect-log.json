@@ -1,10 +1,10 @@
 {
-  "runAt": "2026-10-31T11:23:57.917Z",
+  "runAt": "2026-11-01T03:40:19.474Z",
   "sourceResults": [
     {
       "source": "Dawn News",
       "ok": true,
-      "items": 26
+      "items": 29
     },
     {
       "source": "The News International",
@@ -19,7 +19,7 @@
     {
       "source": "BBC News — World",
       "ok": true,
-      "items": 36
+      "items": 28
     },
     {
       "source": "BBC News — Business",
@@ -37,6 +37,6 @@
   "safety": {
     "policyVersion": 1,
     "blockedDropped": 0,
-    "reviewFlagged": 33
+    "reviewFlagged": 32
   }
 }
