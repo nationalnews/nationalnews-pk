@@ -1,10 +1,10 @@
 {
-  "runAt": "2026-11-03T03:40:23.335Z",
+  "runAt": "2026-11-03T11:41:11.109Z",
   "sourceResults": [
     {
       "source": "Dawn News",
       "ok": true,
-      "items": 29
+      "items": 26
     },
     {
       "source": "The News International",
@@ -19,12 +19,12 @@
     {
       "source": "BBC News — World",
       "ok": true,
-      "items": 36
+      "items": 23
     },
     {
       "source": "BBC News — Business",
       "ok": true,
-      "items": 53
+      "items": 45
     },
     {
       "source": "Al Jazeera — All",
@@ -32,11 +32,11 @@
       "items": 25
     }
   ],
-  "freshCandidates": 202,
+  "freshCandidates": 179,
   "totalQueued": 120,
   "safety": {
     "policyVersion": 1,
     "blockedDropped": 0,
-    "reviewFlagged": 37
+    "reviewFlagged": 33
   }
 }
