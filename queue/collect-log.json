@@ -1,10 +1,10 @@
 {
-  "runAt": "2026-11-12T03:42:45.934Z",
+  "runAt": "2026-11-12T11:48:10.145Z",
   "sourceResults": [
     {
       "source": "Dawn News",
       "ok": true,
-      "items": 29
+      "items": 28
     },
     {
       "source": "The News International",
@@ -24,7 +24,7 @@
     {
       "source": "BBC News — Business",
       "ok": true,
-      "items": 56
+      "items": 55
     },
     {
       "source": "Al Jazeera — All",
@@ -32,7 +32,7 @@
       "items": 25
     }
   ],
-  "freshCandidates": 195,
+  "freshCandidates": 197,
   "totalQueued": 120,
   "safety": {
     "policyVersion": 1,
