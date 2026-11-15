@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-15T03:42:28.971Z",
+  "runAt": "2026-11-15T11:29:29.297Z",
   "sourceResults": [
     {
       "source": "Dawn News",
@@ -19,7 +19,7 @@
     {
       "source": "BBC News — World",
       "ok": true,
-      "items": 23
+      "items": 22
     },
     {
       "source": "BBC News — Business",
@@ -37,6 +37,6 @@
   "safety": {
     "policyVersion": 1,
     "blockedDropped": 0,
-    "reviewFlagged": 37
+    "reviewFlagged": 33
   }
 }
